@@ -24,11 +24,11 @@
 - 该栏目提供的工具只为提高效率，可能与项目核心有一定偏差。
 - 项目Release提供封装好的基础工具箱，工具箱将基于 [Maye Lite](https://github.com/25H/MayeLite) 进行相对路径封装，以便于解决路径问题，做到开箱即用。
 
-|                         项目名称                         |                           项目简介                           |                  项目地址                  |                   项目文档                   |                         支持平台                         |
-| :------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------: | :------------------------------------------: | :------------------------------------------------------: |
-|       [Maye Lite](https://github.com/25H/MayeLite)       |             专注于文件快速启动的简洁、轻量级工具             |      https://github.com/25H/MayeLite       |        https://t.arae.cc/p/25804.html        |                   ![](src/windows.svg)                   |
-|                [uTools](https://u.tools/)                | 一个极简、插件化的现代桌面软件，通过自由选配丰富的插件，打造得心应手的工具集合 |              https://u.tools/              | https://u.tools/docs/guide/about-uTools.html | ![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) |
-| [Everything](https://www.voidtools.com/zh-cn/downloads/) |               一款强大的本地文件索引和搜索工具               | https://www.voidtools.com/zh-cn/downloads/ |                      /                       |                   ![](src/windows.svg)                   |
+|                         项目名称                         |                           项目简介                           |                  项目地址                  |                   项目文档                   |
+| :------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------: | :------------------------------------------: |
+|       [Maye Lite](https://github.com/25H/MayeLite)       |   专注于文件快速启动的简洁、轻量级工具![](src/windows.svg)   |      https://github.com/25H/MayeLite       |        https://t.arae.cc/p/25804.html        |
+|                [uTools](https://u.tools/)                | 一个极简、插件化的现代桌面软件。<br />通过自由选配丰富的插件，打造得心应手的工具集合<br />![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) |              https://u.tools/              | https://u.tools/docs/guide/about-uTools.html |
+| [Everything](https://www.voidtools.com/zh-cn/downloads/) |     一款强大的本地文件索引和搜索工具![](src/windows.svg)     | https://www.voidtools.com/zh-cn/downloads/ |                      /                       |
 
 欢迎在issue中推荐更多的效率工具，但是请注意，适合自己的工具才是最好的，您并不需要下载所有的工具，请勿持有 ALL IN 思想。
 
@@ -36,17 +36,19 @@
 
 ### 🪐  环境基础
 
-| 工具名称     | Usage | 项目地址 |      |      |
-| ------------ | ----- | -------- | ---- | ---- |
-| Vscode       |       |          |      |      |
-| PyCharm      |       |          |      |      |
-| PHPStorm     |       |          |      |      |
-| Phpstudy     |       |          |      |      |
-| Navicat      |       |          |      |      |
-| IDEA         |       |          |      |      |
-| Watt Toolkit |       |          |      |      |
-| Clash        |       |          |      |      |
-|              |       |          |      |      |
+| 工具名称     | Usage                                                        | 项目地址                                        | 使用文档 |
+| ------------ | ------------------------------------------------------------ | ----------------------------------------------- | -------- |
+| Vscode       | 最好用 最轻量的 文本编辑器 依靠扩展可实现包括但不限于 IDE 各种功能![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) | https://code.visualstudio.com/                  |          |
+| PyCharm      | Python 集成开发环境(IDE)![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) | https://www.jetbrains.com/zh-cn/pycharm/        |          |
+| PHPStorm     | PHP 集成开发环境(IDE)![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) | https://www.jetbrains.com/zh-cn/phpstorm/       |          |
+| Phpstudy     | Web环境 (Apache / Nginx + FTP + MySQL) 快速部署 ![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg)  <br />常用于 Web初学阶段的一些本地web页面的搭建 | https://www.xp.cn/download.html                 |          |
+| Docker       | 容器服务 CTF动态题目的根基![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg)<br />常用于 题目本地搭建测试 漏洞本地复现环境搭建 靶场环境搭建等 <br />最重要的是 容器具有高强度的安全性 | https://www.docker.com/                         |          |
+| Navicat      | 优秀的数据库 管理 操作 调试 以及 可视化软件[![](src/windows.svg)](https://www.ghxi.com/navicat16.html) ![](src/linux.svg)![](src/MacOS.svg) | https://navicat.com.cn/download/navicat-premium |          |
+| IDEA         | Java 集成开发环境(IDE)![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) | https://www.jetbrains.com/zh-cn/idea/           |          |
+| Watt Toolkit | Github Discord 部分谷歌服务 页面元素CDN 访问加速 \| <br />不是用来让你打游戏的啊喂(#`O′)！![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) | https://github.com/BeyondDimension/SteamTools   |          |
+| Clash        | 部分服务访问加速 \| 我也只能说这么多![](src/windows.svg)![](src/linux.svg)![](src/MacOS.svg) | https://github.com/Dreamacro/clash              |          |
+|              |                                                              |                                                 |          |
+|              |                                                              |                                                 |          |
 
 
 
