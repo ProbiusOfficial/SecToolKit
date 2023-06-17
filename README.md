@@ -24,11 +24,11 @@
 - 该栏目提供的工具只为提高效率，可能与项目核心有一定偏差。
 - 项目Release提供封装好的基础工具箱，工具箱将基于 [Maye Lite](https://github.com/25H/MayeLite) 进行相对路径封装，以便于解决路径问题，做到开箱即用。
 
-|                         项目名称                         |                           项目简介                           |                  项目地址                  |                   项目文档                   |
-| :------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------: | :------------------------------------------: |
-|       [Maye Lite](https://github.com/25H/MayeLite)       | 专注于文件快速启动的简洁、轻量级工具<img src="./src/windows.svg" width="17" height="17" /> |      https://github.com/25H/MayeLite       |        https://t.arae.cc/p/25804.html        |
-|                [uTools](https://u.tools/)                | 一个极简、插件化的现代桌面软件。<br />通过自由选配丰富的插件，打造得心应手的工具集合<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> |              https://u.tools/              | https://u.tools/docs/guide/about-uTools.html |
-| [Everything](https://www.voidtools.com/zh-cn/downloads/) | 一款强大的本地文件索引和搜索工具<img src="./src/windows.svg" width="17" height="17" /> | https://www.voidtools.com/zh-cn/downloads/ |                      /                       |
+| 项目名称                                                 | 项目简介                                                     | 项目地址                                   | 项目文档                                     |
+| :------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------- | :------------------------------------------- |
+| [Maye Lite](https://github.com/25H/MayeLite)             | 专注于文件快速启动的简洁、轻量级工具<img src="./src/windows.svg" width="17" height="17" /> | https://github.com/25H/MayeLite            | https://t.arae.cc/p/25804.html               |
+| [uTools](https://u.tools/)                               | 一个极简、插件化的现代桌面软件。<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://u.tools/                           | https://u.tools/docs/guide/about-uTools.html |
+| [Everything](https://www.voidtools.com/zh-cn/downloads/) | 一款强大的本地文件索引和搜索工具<img src="./src/windows.svg" width="17" height="17" /> | https://www.voidtools.com/zh-cn/downloads/ | /                                            |
 
 欢迎在issue中推荐更多的效率工具，但是请注意，适合自己的工具才是最好的，您并不需要下载所有的工具，请勿持有 ALL IN 思想。
 
@@ -37,36 +37,33 @@
 ### 🪐  环境基础
 
 | 工具名称     | Usage                                                        | 项目地址                                        | 使用文档 |
-| ------------ | ------------------------------------------------------------ | ----------------------------------------------- | -------- |
-| Vscode       | 最好用 最轻量的 文本编辑器 依靠扩展可实现包括但不限于 IDE 各种功能<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://code.visualstudio.com/                  |          |
-| PyCharm      | Python 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://www.jetbrains.com/zh-cn/pycharm/        |          |
-| PHPStorm     | PHP 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://www.jetbrains.com/zh-cn/phpstorm/       |          |
-| Phpstudy     | Web环境 (Apache / Nginx + FTP + MySQL) 快速部署 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" />  <br />常用于 Web初学阶段的一些本地web页面的搭建 | https://www.xp.cn/download.html                 |          |
-| Docker       | 容器服务 CTF动态题目的根基<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /><br />常用于 题目本地搭建测试 漏洞本地复现环境搭建 靶场环境搭建等 <br />最重要的是 容器具有高强度的安全性 | https://www.docker.com/                         |          |
-| Navicat      | 优秀的数据库 管理 操作 调试 以及 可视化软件<a href="https://www.ghxi.com/navicat16.html"><img src="./src/windows.svg" width="17" height="17" /></a><img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://navicat.com.cn/download/navicat-premium |          |
-| IDEA         | Java 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://www.jetbrains.com/zh-cn/idea/           |          |
-| Watt Toolkit | Github Discord 部分谷歌服务 页面元素CDN 访问加速 \| <br />不是用来让你打游戏的啊喂(#`O′)！<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://github.com/BeyondDimension/SteamTools   |          |
-| Clash        | 部分服务访问加速 \| 我也只能说这么多<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://github.com/Dreamacro/clash              |          |
-|              |                                                              |                                                 |          |
-|              |                                                              |                                                 |          |
+| ------------ | ------------------------------------------------------------ | ----------------------------------------------- | :------: |
+| Vscode       | 最好用 最轻量的 文本编辑器 依靠扩展可实现包括但不限于 IDE 各种功能<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://code.visualstudio.com/                  |    /     |
+| PyCharm      | Python 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://www.jetbrains.com/zh-cn/pycharm/        |    /     |
+| IDEA         | Java 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://www.jetbrains.com/zh-cn/idea/           |    /     |
+| PHPStorm     | PHP 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://www.jetbrains.com/zh-cn/phpstorm/       |    /     |
+| Phpstudy     | Web环境 (Apache / Nginx + FTP + MySQL) 快速部署 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" />  <br />常用于 Web初学阶段的一些本地web页面的搭建 | https://www.xp.cn/download.html                 |    /     |
+| Docker       | 容器服务 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /><br />常用于 题目本地搭建测试  靶场环境，漏洞复现环境搭建等 <br /> 除了静态附件题目，几乎所有的CTF题目都依赖Docker | https://www.docker.com/                         |    /     |
+| Navicat      | 优秀的数据库 管理 操作 调试 以及 可视化软件<a href="https://www.ghxi.com/navicat16.html"><img src="./src/windows.svg" width="17" height="17" /></a><img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://navicat.com.cn/download/navicat-premium |    /     |
+| Watt Toolkit | Github Discord 部分谷歌服务 页面元素CDN 访问加速 \| <br />不是用来让你打游戏的啊喂(#`O′)！<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://github.com/BeyondDimension/SteamTools   |    /     |
+| Clash        | 部分服务访问加速 \| 我也只能说这么多<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | https://github.com/Dreamacro/clash              |    /     |
 
 
 
 ### 🌐  Web
 
-| 工具名称           |      |      |      |      |
-| :----------------- | ---- | ---- | ---- | ---- |
-| hackbar            |      |      |      |      |
-| Proxy SwitchyOmega |      |      |      |      |
-| Wappalyzer         |      |      |      |      |
-| Burp Suite         |      |      |      |      |
-| Antsword           |      |      |      |      |
-| dirsearch          |      |      |      |      |
-| JD-GUI             |      |      |      |      |
-|                    |      |      |      |      |
-|                    |      |      |      |      |
+- 注意 工具包含 应用程序<img src="./src/application.svg" width="19" height="13" /> 和 浏览器插件<img src="./src/chrome.svg" width="19" height="13" />
+- 以下为Web常用工具或者说基础工具，一些漏洞利用程序将不会被归纳到这，您可以 点击此处 查看后方的CTF项目归档来查找更多工具。
 
-
+| 工具名称                                                     | Usage                                                        | 项目地址                                                     | 使用文档 | 其他 |
+| :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | ---- |
+| hackbar <img src="./src/chrome.svg" width="19" height="13" /> | 浏览器插件，能够在页面上直接完成 请求/响应内容编辑，完成各种包括但是不限于伪造的工作。 | https://chrome.google.com/webstore/detail/ginpbkfigcoaokgflihfhhmglmbchinc<br />https://github.com/Mr-xn/hackbar2.1.3 | /        | /    |
+| Proxy SwitchyOmega <img src="./src/chrome.svg" width="19" height="13" /> | 强大的代理管理软件，方便一个浏览器多个代理端口的切换。       | https://github.com/FelisCatus/SwitchyOmega                   | /        | /    |
+| Wappalyzer <img src="./src/chrome.svg" width="19" height="13" /> | 页面技术识别软件，方便快速定位页面的框架技术等信息           | https://www.wappalyzer.com/                                  | /        | /    |
+| Burp Suite <img src="./src/application.svg" width="19" height="13" /> |                                                              |                                                              |          |      |
+| Antsword <img src="./src/application.svg" width="19" height="13" /> |                                                              |                                                              |          |      |
+| dirsearch <img src="./src/application.svg" width="19" height="13" /> |                                                              |                                                              |          |      |
+| JD-GUI <img src="./src/application.svg" width="19" height="13" /> |                                                              |                                                              |          |      |
 
 ### 🕸   MISC
 ### 🔑 Crypto
