@@ -36,7 +36,7 @@
 
 ### 🪐  环境基础
 
-| 工具名称     | Usage                                                        | 项目地址                                                | 使用文档 |
+| 项目名称     | Usage                                                        | 项目地址                                                | 使用文档 |
 | ------------ | ------------------------------------------------------------ | ------------------------------------------------------- | :------: |
 | Vscode       | 最好用 最轻量的 文本编辑器 依靠扩展可实现包括但不限于 IDE 各种功能<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://code.visualstudio.com/)                  |    /     |
 | PyCharm      | Python 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.jetbrains.com/zh-cn/pycharm/)        |    /     |
@@ -55,7 +55,7 @@
 - 注意 工具包含 应用程序<img src="./src/application.svg" width="19" height="13" /> 和 浏览器插件<img src="./src/chrome.svg" width="19" height="13" />
 - 以下为Web常用工具或者说基础工具，一些漏洞利用程序将不会被归纳到这，您可以 点击此处 查看后方的CTF项目归档来查找更多工具。
 
-| 工具名称                                                     | Usage                                                        | 项目地址                                                     | 使用文档 | 其他 |
+| 项目名称                                                     | Usage                                                        | 项目地址                                                     | 使用文档 | 其他 |
 | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | ---- |
 | hackbar <img src="./src/chrome.svg" width="19" height="13" /> | 浏览器插件，能够在页面上直接完成 请求/响应内容编辑，完成各种包括但是不限于伪造的工作。 | [谷歌商店](https://chrome.google.com/webstore/detail/ginpbkfigcoaokgflihfhhmglmbchinc)<br />[Github](https://github.com/Mr-xn/hackbar2.1.3) | /        | /    |
 | Proxy SwitchyOmega <img src="./src/chrome.svg" width="19" height="13" /> | 代理管理软件，方便一个浏览器多个代理端口的切换。             | [Github](https://github.com/FelisCatus/SwitchyOmega)         | /        | /    |
@@ -63,10 +63,85 @@
 | Burp Suite <img src="./src/application.svg" width="19" height="13" /> | 代理抓包软件，用于Web应用程序的渗透测试和攻击<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://portswigger.net/burp)                         | /        | /    |
 | Antsword <img src="./src/application.svg" width="19" height="13" /> | 开源Webshell管理工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/AntSwordProject/antSword)        | /        | /    |
 | dirsearch <img src="./src/application.svg" width="19" height="13" /> | 目录扫描工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/maurosoria/dirsearch)            | /        | /    |
+| SQLMap<img src="./src/application.svg" width="19" height="13" /> | 自动化的SQL注入利用工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/sqlmapproject/sqlmap)            | /        | /    |
 | JD-GUI <img src="./src/application.svg" width="19" height="13" /> | Jar包反编译工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/java-decompiler/jd-gui)          | /        | /    |
+| Ysoserial<img src="./src/application.svg" width="19" height="13" /> | Java 反序列漏洞利用工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/frohoff/ysoserial)               | /        | /    |
 
 ### 🕸  MISC
+
+#### ❆ 基础工具
+
+| 项目名称              | Usage                                                        | 项目地址                                                     | 文档 |
+| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| Python                | MISC方向中用途最广的语言。                                   | [官网](https://www.python.org/)                              | /    |
+| CyberChef             | 近乎全能的编码解码工具。<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://cyberchef.org/)<br />[国内中文镜像站](https://ctf.mzy0.com/CyberChef3/) | /    |
+| 010 Editor            | 专业的文本编辑器和16进制编辑器，可通过加载模块脚本，解析文件结构。<img src="./src/windows.svg" width="17" height="17" /><img src="./src/linux.svg" width="17" height="17" /> | [官网](http://www.010editor.com/)                            | /    |
+| lmHex                 | 开源的16进制编辑器。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/WerWolv/ImHex)                   |      |
+| WinHex                | 16 进制编辑器为核心的数据处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.x-ways.net/winhex/)                       | /    |
+| QR Research           | 专业的二维码扫描识别软件，支持多个纠错等级，掩码选项。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
+| Stegsolve             | 图像分析工具。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Giotino/stegsolve)               | /    |
+| Binwalk               | 可识别文件分离提取工具，常用于从文件中提取隐写到其中的其他文件。<img src="./src/linux.svg" width="17" height="17" /> | [Github](https://github.com/ReFirmLabs/binwalk)              | /    |
+| Foremost              | 用于提取一个文件中包含的多个文件。<img src="./src/linux.svg" width="17" height="17" /> | /                                                            | /    |
+| ARCHPR                | 压缩文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
+| Ziperello             | zip压缩包密码恢复软件。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
+| Aopr                  | Office文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
+| Audacity              | 多轨音频处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [Github](https://github.com/audacity/audacity)               | /    |
+| Mp3stego              | 音频隐写提取工具<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.petitcolas.net/steganography/mp3stego/)   |      |
+| Wireshark             | 流量分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.wireshark.org/)                           | /    |
+| Volatility            | 内存分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.volatilityfoundation.org/)<br />[Github](https://github.com/volatilityfoundation) | /    |
+| Passware Kit Forensic | 十分强大的解密工具，各类文件/磁盘密码爆破，密钥搜索等        | /                                                            | /    |
+| Forensics-Wiki        | 取证综合资料库<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://www.forensics-wiki.com/)                      | /    |
+|                       |                                                              |                                                              |      |
+
+#### ❆ 其他工具	
+
+#### ❆ 解题工具
+
+⚠请不要过分依赖下面工具！！！
+
+```
+其实在工具出来之前，MISC对所谓工具题的考点应该是脚本编写，MISC本身工具题目很少，只是造轮子的师傅多了也便有了工具题x 
+所以这里要告诚各位 入门之后如果你要做一名MISC手 请一定不要抛弃原理做题 不要依赖工具 也不要停止学习.
+```
+
+| 项目名称     | Usage                                                    | 相关地址                           |
+| ------------ | -------------------------------------------------------- | ---------------------------------- |
+| 随波逐流     | 离线加密解密，字符编码进行转换，文件隐写查看等多项功能。 | [官网](http://1o1o.xyz/index.html) |
+| PuzzleSolver | MISC 综合解题工具，由Byxs20开发。                        | [神秘数字](761594154)              |
+
+#### ❆ 开源脚本
+
+🔔MISC是一个十分注重编程能力 ~~和 脑洞~~ 的方向，希望你能从下面的开源脚本中获得启发，也欢迎pr投稿你的开源脚本x
+
+| 项目名称                          | 项目地址                                                     | 项目作者                                         |
+| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
+| 自动爆破PNG图片宽高并一键修复工具 | [Github](https://github.com/AabyssZG/Deformed-Image-Restorer) | [AabyssZG (曾哥) )](https://github.com/AabyssZG) |
+| 文件反转、倒置、导出工具          | [Gihub](https://github.com/AabyssZG/FileReverse-Tools)       | AabyssZG (曾哥) )                                |
+
 ### 🔑 Crypto
+
+| 项目名称           | Usage                                                        | 项目地址                                       | 其它 |
+| ------------------ | ------------------------------------------------------------ | ---------------------------------------------- | ---- |
+| Python             | CTF密码学中离不开的语言x                                     | [官网](https://www.python.org/)                | /    |
+| Factordb           | 在线的因数分解网站，可将n分解为p q两个素数                   | [官网](http://factordb.com/)                   | /    |
+| Yafu               | 本地的因数分解程序，可将n分解为p q两个素数，通常用于n比较小的情况 | [官网](https://sourceforge.net/projects/yafu/) | /    |
+| 【Python】Crypto包 | pip install pycryptodom \| import Crypto \| from Crypto.Util.number import * | /                                              | /    |
+| 【Python】gmpy2包  | 在 [Releases](https://github.com/aleaxit/gmpy/releases) 中下载相应版本 \| pip3 install gmpy2-2.xx-cpxx-xxxxxx.whl \| import gmpy2 | [Github](https://github.com/aleaxit/gmpy)      | /    |
+|                    |                                                              |                                                |      |
+
 ### 💫 Reverse
+
+| 项目名称     | Usage | 项目地址 | 项目文档 |
+| ------------ | ----- | -------- | -------- |
+| IDA          |       |          |          |
+| Cheat Engine |       |          |          |
+| DIE          |       |          |          |
+| DIEL         |       |          |          |
+|              |       |          |          |
+|              |       |          |          |
+|              |       |          |          |
+
+
+
 ### 💥 PWN
 ###   ⚔   AWD 
