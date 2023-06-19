@@ -47,7 +47,7 @@
 | Navicat            | 优秀的数据库 管理 操作 调试 以及 可视化软件<a href="https://www.ghxi.com/navicat16.html"><img src="./src/windows.svg" width="17" height="17" /></a><img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://navicat.com.cn/download/navicat-premium)      |    /     |
 | Watt Toolkit       | Github Discord 部分谷歌服务 页面元素CDN 访问加速 \| <br />不是用来让你打游戏的啊喂(#`O′)！<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/BeyondDimension/SteamTools)      |    /     |
 | Clash              | 部分服务访问加速 \| 我也只能说这么多<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Dreamacro/clash)                 |    /     |
-| Vmware Workstation | 虚拟机软件<img src="./src/windows.svg" width="17" height="17" /> <img src="D:\Github Resp\SecTool\assets\linux-1687182169844-9.svg" width="17" height="17" /> <img src="D:\Github Resp\SecTool\assets\apple.svg" width="17" height="17" /> | [官网](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html) |          |
+| Vmware Workstation | 虚拟机软件<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html) |          |
 
 
 
@@ -101,7 +101,7 @@
 | ZipCenOp | 伪加密加/解密工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/442048209as/ZipCenOp) | / |
 | Steghide | 将文件隐藏到图片或音频中的工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> | [官网](https://steghide.sourceforge.net/) | / |
 | TweakPNG | 用于检查和修改PNG图像文件（和010的png template差不多） <img src="./src/windows.svg" width="17" height="17" /> | [官网](https://entropymine.com/jason/tweakpng/) | / |
-| DeepSound | 可以将文件加密保存到一段声音文件中<img src="D:\Github Resp\SecTool\assets\windows.svg" width="17" height="17" /> | [官网](https://jpinsoft.net/deepsound/documentation.aspx) | / |
+| DeepSound | 可以将文件加密保存到一段声音文件中<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://jpinsoft.net/deepsound/documentation.aspx) | / |
 | Mp3tag | 音频文件元资料编辑器 <img src="./src/windows.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.mp3tag.de/en/) | / |
 
 #### ❆ 其他工具	
