@@ -121,37 +121,45 @@
 
 ### 🔑 Crypto
 
-| 项目名称         | Usage                                                        | 项目地址                                       | 其它 |
-| ---------------- | ------------------------------------------------------------ | ---------------------------------------------- | ---- |
-| Python           | CTF密码学中离不开的语言x                                     | [官网](https://www.python.org/)                | /    |
-| Factordb         | 在线的因数分解网站，可将n分解为p q两个素数                   | [官网](http://factordb.com/)                   | /    |
-| Yafu             | 本地的因数分解程序，可将n分解为p q两个素数，通常用于n比较小的情况 | [官网](https://sourceforge.net/projects/yafu/) | /    |
-| [Python]Crypto包 | pip install pycryptodom \| import Crypto \| from Crypto.Util.number import * | /                                              | /    |
-| [Python]gmpy2包  | 在 [Releases](https://github.com/aleaxit/gmpy/releases) 中下载相应版本 \| pip3 install gmpy2-2.xx-cpxx-xxxxxx.whl \| import gmpy2 | [Github](https://github.com/aleaxit/gmpy)      | /    |
-|                  |                                                              |                                                |      |
+| 项目名称         | Usage                                                        | 项目地址                                                     | 其它                                                      |
+| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- |
+| Python           | CTF密码学中离不开的语言x<img src="./src/python.svg" width="17" height="17" /> | [官网](https://www.python.org/)                              | /                                                         |
+| [Python]Crypto包 | 密码学工具库，用于在Python中实现各种加密、解密和哈希算法。<img src="./src/python.svg" width="17" height="17" /> | /                                                            | /                                                         |
+| [Python]gmpy2包  | 包含了许多常用的数论函数和算法，适配各种大整数情况，算法效率高于原生库。<img src="./src/python.svg" width="17" height="17" /> | [Github](https://github.com/aleaxit/gmpy)                    | /                                                         |
+| [Python]numpy包  | 基于C代码实现了底层数据结构和计算函数优化，适用于处理大型数据集和高性能计算，在密码学中常用于矩阵类运算。<img src="./src/python.svg" width="17" height="17" /> | [Github](https://github.com/numpy/numpy)<br />[官网](https://numpy.org/) | /                                                         |
+| Sagemath         | 开源的数学软件系统,整合了许多开源Python包。 <img src="./src/linux.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.sagemath.org/)<br />[Github]([Sage Mathematical Software System (github.com)](https://github.com/sagemath)) | [Sage 中文文档](https://www.osgeo.cn/sagemath/index.html) |
+| Yafu             | 本地的因数分解程序                                           | [官网](https://sourceforge.net/projects/yafu/)               | /                                                         |
+| Factordb         | 在线的因数分解网站                                           | [官网](http://factordb.com/)                                 | /                                                         |
+| z3               | 开源的约束求解器，针对约束求解题型                           | [github](https://github.com/Z3Prover/z3/)                    | /                                                         |
+| CTFCrackTools    | 国内首个CTF工具框架,内涵多个主流密码加解密，支持添加支持Python编写的插件。 | [Github](https://github.com/0Chencc/CTFCrackTools)           | /                                                         |
 
 ### 💫 Reverse
 #### 解题工具
 | 项目名称       | Usage | 项目地址 | 项目文档 |
 | ------------   | ----- | -------- | -------- |
 | IDA            | 最常用的静态逆向工具 | [官网](https://hex-rays.com/ida-pro/)        |  [ida pro权威指南](https://github.com/Coldwave96/WebSecurity/blob/master/IDA%20Pro%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89.pdf)        |
-| Cheat Engine   | 对程序的内存数据进行扫描和调试，十分强大，但是用得不多 | [官网](https://www.cheatengine.org/)   |  /        |
+| Ghidra         | 开源的静态逆向工具，和IDA作用相同      | [官网](https://ghidra-sre.org/)         | / |
+| Ollydbg        | 同为反汇编调试器(官方已经停止维护)     | [官网](https://www.ollydbg.de/)         | /         |
 | DIE            | 查壳工具，拿到程序第一件事就是分析文件类型，是否有壳   | [github](https://github.com/horsicq/Detect-It-Easy)   | [github](https://github.com/horsicq/Detect-It-Easy)  |
 | Exeinfope      | 同为查壳工具      | [官网](http://www.exeinfo.byethost18.com)    | /         |
-| Ghidra         | 开源的静态逆向工具，和IDA作用相同      | [官网](https://ghidra-sre.org/)         |          |
-| JEB            | 强大的APK逆向工具，针对Mobile类型的逆向题目    |          ||
-| Ollydbg        | 同为反汇编调试器(官方已经停止维护)     | [官网](https://www.ollydbg.de/)         | /         |
+| Cheat Engine   | 对程序的内存数据进行扫描和调试，十分强大，但是用得不多 | [官网](https://www.cheatengine.org/)   |  /        |
+| JEB            | 强大的APK逆向工具，针对Mobile类型的逆向题目    | / |/|
 | jd-gui         | 逆向Jar包 |[github](http://java-decompiler.github.io/)     | /      |
-| x64dbg/x32dbg  | 在windows上使用的开源x64/x32调试器      | [官网](https://x64dbg.com/)         | [官网](https://x64dbg.com/)          |
-| unpy2exe       | 对py2exe打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/matiasb/unpy2exe)         | [github](https://github.com/matiasb/unpy2exe)         |
-| pyinstxtractor | 对pyInstaller打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/extremecoders-re/pyinstxtractor)         | [github](https://github.com/extremecoders-re/pyinstxtractor)          |
-| [python]uncompyle | 用于对Python字节码文件 **（.pyc）** 的反汇编，将其变成python源代码      | [官网](https://pypi.org/project/uncompyle6/)         | [官网](https://pypi.org/project/uncompyle6/)          |
+| x64dbg/x32dbg  | 在windows上使用的开源x64/x32调试器      | [官网](https://x64dbg.com/)         |           |
+| unpy2exe       | 对py2exe打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/matiasb/unpy2exe)         |          |
+| pyinstxtractor | 对pyInstaller打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/extremecoders-re/pyinstxtractor)         |           |
+| [python]uncompyle | 用于对Python字节码文件 **（.pyc）** 的反汇编，将其变成python源代码      | [官网](https://pypi.org/project/uncompyle6/)         | /         |
 | gdb            | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳   | 使用包管理工具安装      | [Sourceware](https://www.sourceware.org/gdb/documentation/)   |
-| z3             | 开源的约束求解器，针对约束求解题型    | [github](https://github.com/Z3Prover/z3/)     | [github](https://github.com/Z3Prover/z3/)         |
-| dnSpy          | 强大的.NET调试、修改和反编译的工具(已停止维护)    | [github](https://github.com/dnSpy/dnSpy)     | [github](https://github.com/dnSpy/dnSpy)          |
+| z3             | 开源的约束求解器，针对约束求解题型    | [github](https://github.com/Z3Prover/z3/)     | /        |
+| dnSpy          | 强大的.NET调试、修改和反编译的工具(已停止维护)    | [github](https://github.com/dnSpy/dnSpy)     | /         |
 
-#### 使用流程
+**使用流程**
+
+```
 拿到一个文件，先分析它是什么类型的文件，可以在Linux下使用flie来查看他是什么类型的文件（一般是一个可执行文件），分析后查看它是否有壳，有的话先脱壳，脱壳后针对文件类型来使用逆向工具，如Jar包我们就用jd-gui，.NET文件我们就使用dnSpy，IDA一般是万金油，不知道用什么的话就先用IDA静态分析。在了解程序大概结构后，我们可以对程序关键部分下断点进行动态调试，但在这之前，我们或许还会遇到需要解决混淆和反调试保护等问题......本文注重工具的介绍，这里不再对题型过多赘述。
+```
+
+
 
 ### 💥 PWN
 | 项目名称       | Usage | 项目地址 | 项目文档 |
@@ -162,6 +170,12 @@
 | pwntools    | 用于编写EXP     | [github](https://github.com/Gallopsled/pwntools)     | [github](https://github.com/Gallopsled/pwntools)    |
 | objdump     | 反汇编工具，查看文件的一些表信息，如got表   | /                                                           | /                                                           |
 
-#### 使用流程
+**使用流程**
+
+```
 Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件类型，然后再对文件开启的保护机制分析，反汇编出它的源代码，对源代码的逻辑分析，找出漏洞，编写EXP,在编写EXP的过程中，我们可以使用gdb在本地动态调试，一步一步修改我们的EXP,Pwn掉这题！
+```
+
+
+
 ###   ⚔   AWD 
