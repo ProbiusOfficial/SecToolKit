@@ -101,6 +101,18 @@
 | TweakPNG | 用于检查和修改PNG图像文件（和010的png template差不多） <img src="./src/windows.svg" width="17" height="17" /> | [官网](https://entropymine.com/jason/tweakpng/) | / |
 | DeepSound | 可以将文件加密保存到一段声音文件中<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://jpinsoft.net/deepsound/documentation.aspx) | / |
 | Mp3tag | 音频文件元资料编辑器 <img src="./src/windows.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.mp3tag.de/en/) | / |
+| zsteg | 图片隐写 | [zed-0xff/zsteg: detect stegano-hidden data in PNG & BMP (github.com)](https://github.com/zed-0xff/zsteg) |  |
+| StegoVeritas | 图片隐写 | [bannsec/stegoVeritas: Yet another Stego Tool (github.com)](https://github.com/bannsec/stegoVeritas) |  |
+| hashcat | 密码爆破 |  |  |
+| john | 密码爆破 |  |  |
+| hydra | 密码爆破 |  |  |
+| MemProcFS | 新型内存取证框架 |  |  |
+| NtfsStreamsEditor | NTFS流分析 |  |  |
+| RegistryExplorer | 注册表文件分析器 |  |  |
+| PowerToy | 注册表文件分析器 |  |  |
+| R-Studio | 内存取证tick+磁盘文件恢复分析 |  |  |
+| UleadGIFAnimator | 高级GIF编辑器 |  |  |
+| WaterMarkH | 单图盲水印（频域隐写）工具 |  |  |
 
 #### ❆ 其他工具	
 
@@ -109,15 +121,15 @@
 ⚠请不要过分依赖下面工具！！！
 
 ```
-其实在工具出来之前，MISC对所谓工具题的考点应该是脚本编写，MISC本身工具题目很少，只是造轮子的师傅多了也便有了工具题x 
-所以这里要告诚各位 入门之后如果你要做一名MISC手 请一定不要抛弃原理做题 不要依赖工具 也不要停止学习.
+- MISC是一个对编程能力要求比较高的方向，不过大多数考点的固定衍生出比较多的"轮子"，当然轮子减少手动操作，确实是好东西，但是容易产生一些弊端，因为跳过了手动操作所以不懂原理也能梭题目，可能会导致选手略过本来应该学的原理，手动会做之后再碰到了用工具减少操作是完全没问题的，即便没有这些整合工具，用现成脚本说到底本质也是一样的。
+- 使用工具获取便利的同时 请不要忽略对原理的学习！
 ```
 
 | 项目名称     | Usage                                                    | 相关地址                                   |
 | ------------ | -------------------------------------------------------- | ------------------------------------------ |
 | 随波逐流     | 离线加密解密，字符编码进行转换，文件隐写查看等多项功能。 | [官网](http://1o1o.xyz/index.html)         |
 | PuzzleSolver | MISC 综合解题工具，由Byxs20开发。                        | [神秘数字](761594154)                      |
-| Ciphey       | 自动化解密工具，非常牛逼。                               | [Github](https://github.com/Ciphey/Ciphey) |
+| Ciphey       | 自动化解密工具。                                         | [Github](https://github.com/Ciphey/Ciphey) |
 
 #### ❆ 开源脚本
 
@@ -127,6 +139,8 @@
 | --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
 | 自动爆破PNG图片宽高并一键修复工具 | [Github](https://github.com/AabyssZG/Deformed-Image-Restorer) | [AabyssZG (曾哥) )](https://github.com/AabyssZG) |
 | 文件反转、倒置、导出工具          | [Github](https://github.com/AabyssZG/FileReverse-Tools)      | [AabyssZG (曾哥) )](https://github.com/AabyssZG) |
+| 自动化内存取证_GUI版本            | [Github](https://github.com/Tokeii0/VolatilityPro)           | [Tokeii0 (猫捉鱼) ](https://github.com/Tokeii0)  |
+
 
 ### 🔑 Crypto
 
@@ -154,9 +168,9 @@
 | Cheat Engine   | 对程序的内存数据进行扫描和调试，十分强大，但是用得不多 | [官网](https://www.cheatengine.org/)   |  /        |
 | JEB            | 强大的APK逆向工具，针对Mobile类型的逆向题目    | / |/|
 | jd-gui         | 逆向Jar包 |[github](http://java-decompiler.github.io/)     | /      |
-| x64dbg/x32dbg  | 在windows上使用的开源x64/x32调试器      | [官网](https://x64dbg.com/)         |           |
-| unpy2exe       | 对py2exe打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/matiasb/unpy2exe)         |          |
-| pyinstxtractor | 对pyInstaller打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/extremecoders-re/pyinstxtractor)         |           |
+| x64dbg/x32dbg  | 在windows上使用的开源x64/x32调试器      | [官网](https://x64dbg.com/)         | / |
+| unpy2exe       | 对py2exe打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/matiasb/unpy2exe)         | / |
+| pyinstxtractor | 对pyInstaller打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/extremecoders-re/pyinstxtractor)         | / |
 | [python]uncompyle | 用于对Python字节码文件 **（.pyc）** 的反汇编，将其变成python源代码      | [官网](https://pypi.org/project/uncompyle6/)         | /         |
 | gdb            | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳   | 使用包管理工具安装      | [Sourceware](https://www.sourceware.org/gdb/documentation/)   |
 | z3             | 开源的约束求解器，针对约束求解题型    | [github](https://github.com/Z3Prover/z3/)     | /        |
@@ -171,12 +185,13 @@
 
 
 ### 💥 PWN
-| 项目名称       | Usage | 项目地址 | 项目文档 |
+| 项目名称       | Usage | 项目地址 | 其他 |
 | ------------   | ----- | -------- | -------- |
-| gdb         | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳     | [Sourceware](https://www.sourceware.org/gdb/documentation/)  | [Sourceware](https://www.sourceware.org/gdb/documentation/)   |
-| checksec    | 查看二进制文件开启了哪些保护机制   | [github](https://github.com/slimm609/checksec.sh)  | [github](https://github.com/slimm609/checksec.sh)         |
-| ROPgadget   | 编写ROP的EXP时需要用到，可以帮助你寻找合适的gadgets     | [github](https://github.com/JonathanSalwan/ROPgadget) | [github](https://github.com/JonathanSalwan/ROPgadget)         |
-| pwntools    | 用于编写EXP     | [github](https://github.com/Gallopsled/pwntools)     | [github](https://github.com/Gallopsled/pwntools)    |
+| GDB       | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳     | [Sourceware](https://www.sourceware.org/gdb/documentation/)  | /  |
+| Pwntools    | 用于编写EXP     | [github](https://github.com/Gallopsled/pwntools)     | /   |
+| Pwncli | 一款简单、易用的`pwn`题调试与攻击工具，帮助你快速编写`pwn`题攻击脚本，并实现本地调试和远程攻击的便捷切换，提高你在`CTF`比赛中调试`pwn`题脚本的速度与效率。 | [Github](https://github.com/RoderickChan/pwncli) | / |
+| Checksec    | 查看二进制文件开启了哪些保护机制   | [github](https://github.com/slimm609/checksec.sh)  | /        |
+| ROPgadget   | 编写ROP的EXP时需要用到，可以帮助你寻找合适的gadgets     | [github](https://github.com/JonathanSalwan/ROPgadget) | /        |
 | objdump     | 反汇编工具，查看文件的一些表信息，如got表   | /                                                           | /                                                           |
 
 **使用流程**
