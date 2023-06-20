@@ -34,11 +34,14 @@
 
 ## 🏴 CTF 工具合集
 
+
+
 ### 🪐  环境基础
 
 | 项目名称           | Usage                                                        | 项目地址                                                     | 使用文档 |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | :------: |
 | Vscode             | 最好用 最轻量的 文本编辑器 依靠扩展可实现包括但不限于 IDE 各种功能<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://code.visualstudio.com/)                       |    /     |
+| Vmware Workstation | 虚拟机软件<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html) |    /     |
 | PyCharm            | Python 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.jetbrains.com/zh-cn/pycharm/)             |    /     |
 | IDEA               | Java 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.jetbrains.com/zh-cn/idea/)                |    /     |
 | PHPStorm           | PHP 集成开发环境(IDE)<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.jetbrains.com/zh-cn/phpstorm/)            |    /     |
@@ -47,7 +50,6 @@
 | Navicat            | 优秀的数据库 管理 操作 调试 以及 可视化软件<a href="https://www.ghxi.com/navicat16.html"><img src="./src/windows.svg" width="17" height="17" /></a><img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://navicat.com.cn/download/navicat-premium)      |    /     |
 | Watt Toolkit       | Github Discord 部分谷歌服务 页面元素CDN 访问加速 \| <br />不是用来让你打游戏的啊喂(#`O′)！<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/BeyondDimension/SteamTools)      |    /     |
 | Clash              | 部分服务访问加速 \| 我也只能说这么多<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Dreamacro/clash)                 |    /     |
-| Vmware Workstation | 虚拟机软件<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html) |    /     |
 
 
 
@@ -72,49 +74,80 @@
 
 #### ❆ 基础工具
 
-| 项目名称              | Usage                                                        | 项目地址                                                     | 文档 |
-| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| Python                | MISC方向中用途最广的语言。                                   | [官网](https://www.python.org/)                              | /    |
-| CyberChef             | 近乎全能的编码解码工具。<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://cyberchef.org/)<br />[国内中文镜像站](https://ctf.mzy0.com/CyberChef3/) | /    |
-| 010 Editor            | 专业的文本编辑器和16进制编辑器，可通过加载模块脚本，解析文件结构。<img src="./src/windows.svg" width="17" height="17" /><img src="./src/linux.svg" width="17" height="17" /> | [官网](http://www.010editor.com/)                            | /    |
-| lmHex                 | 开源的16进制编辑器。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/WerWolv/ImHex)                   |      |
-| WinHex                | 16 进制编辑器为核心的数据处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.x-ways.net/winhex/)                       | /    |
-| QR Research           | 专业的二维码扫描识别软件，支持多个纠错等级，掩码选项。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
-| Stegsolve             | 图像分析工具。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Giotino/stegsolve)               | /    |
-| Binwalk               | 可识别文件分离提取工具，常用于从文件中提取隐写到其中的其他文件。<img src="./src/linux.svg" width="17" height="17" /> | [Github](https://github.com/ReFirmLabs/binwalk)              | /    |
-| Foremost              | 用于提取一个文件中包含的多个文件。<img src="./src/linux.svg" width="17" height="17" /> | /                                                            | /    |
-| ARCHPR                | 压缩文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
-| Ziperello             | zip压缩包密码恢复软件。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
-| Aopr                  | Office文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
-| Audacity              | 多轨音频处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [Github](https://github.com/audacity/audacity)               | /    |
-| Mp3stego              | 音频隐写提取工具<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.petitcolas.net/steganography/mp3stego/)   |      |
-| Wireshark             | 流量分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.wireshark.org/)                           | /    |
-| Volatility            | 内存分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.volatilityfoundation.org/)<br />[Github](https://github.com/volatilityfoundation) | /    |
-| Passware Kit Forensic | 十分强大的解密工具，各类文件/磁盘密码爆破，密钥搜索等        | /                                                            | /    |
-| Forensics-Wiki        | 取证综合资料库<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://www.forensics-wiki.com/)                      | /    |
-| AutoPsy        | 用来分析磁盘映像和恢复文件的开源取证工具  | [官网](https://www.autopsy.com/)         | / |
-| Silenteye | 音频/图像隐写工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://achorein.github.io/silenteye/) | / |
-| WaterMark（隐藏水印） | 图像隐写工具，在频域添加数字水印 <img src="./src/windows.svg" width="17" height="17" /> | / | [吾爱破解论坛](https://www.52pojie.cn/thread-709668-1-1.html) |
-| Stegdetect | 检测jpeg图像隐写工具，搭配stegbreak食用更佳 | [Github](https://github.com/abeluck/stegdetect) | / |
-| ZipCenOp | 伪加密加/解密工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/442048209as/ZipCenOp) | / |
-| Steghide | 将文件隐藏到图片或音频中的工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> | [官网](https://steghide.sourceforge.net/) | / |
-| TweakPNG | 用于检查和修改PNG图像文件（和010的png template差不多） <img src="./src/windows.svg" width="17" height="17" /> | [官网](https://entropymine.com/jason/tweakpng/) | / |
-| DeepSound | 可以将文件加密保存到一段声音文件中<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://jpinsoft.net/deepsound/documentation.aspx) | / |
-| Mp3tag | 音频文件元资料编辑器 <img src="./src/windows.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.mp3tag.de/en/) | / |
-| zsteg | 图片隐写 | [zed-0xff/zsteg: detect stegano-hidden data in PNG & BMP (github.com)](https://github.com/zed-0xff/zsteg) |  |
-| StegoVeritas | 图片隐写 | [bannsec/stegoVeritas: Yet another Stego Tool (github.com)](https://github.com/bannsec/stegoVeritas) |  |
-| hashcat | 密码爆破 |  |  |
-| john | 密码爆破 |  |  |
-| hydra | 密码爆破 |  |  |
-| MemProcFS | 新型内存取证框架 |  |  |
-| NtfsStreamsEditor | NTFS流分析 |  |  |
-| RegistryExplorer | 注册表文件分析器 |  |  |
-| PowerToy | 注册表文件分析器 |  |  |
-| R-Studio | 内存取证tick+磁盘文件恢复分析 |  |  |
-| UleadGIFAnimator | 高级GIF编辑器 |  |  |
-| WaterMarkH | 单图盲水印（频域隐写）工具 |  |  |
+- **基础语言 | 模块**
+
+  | 项目名称 | Usage                      | 项目地址                        | 文档 |
+  | -------- | -------------------------- | ------------------------------- | ---- |
+  | Python   | MISC方向中用途最广的语言。 | [官网](https://www.python.org/) | /    |
+
+- **编码 / 解码 / 解密 工具**
+
+  | 项目名称      | Usage                                                        | 项目地址                                                     | 文档 |
+  | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+  | CyberChef     | 近乎全能的编码解码工具。<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://cyberchef.org/)<br />[国内中文镜像站](https://ctf.mzy0.com/CyberChef3/) | /    |
+  | Ciphey        | 自动化解密工具。                                             | [Github](https://github.com/Ciphey/Ciphey)                   |      |
+  | CTFCrackTools | 国内首个CTF工具框架,内涵多个主流密码加解密，支持添加支持Python编写的插件。 | [Github](https://github.com/0Chencc/CTFCrackTools)           | /    |
+
+- **文本 / Hex 编辑 | 文件工具**	
+
+  | 项目名称   | Usage                                                        | 项目地址                                        | 文档 |
+  | ---------- | ------------------------------------------------------------ | ----------------------------------------------- | ---- |
+  | 010 Editor | 专业的文本编辑器和16进制编辑器，可通过加载模块脚本，解析文件结构。<img src="./src/windows.svg" width="17" height="17" /><img src="./src/linux.svg" width="17" height="17" /> | [官网](http://www.010editor.com/)               | /    |
+  | lmHex      | 开源的16进制编辑器。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/WerWolv/ImHex)      |      |
+  | WinHex     | 16 进制编辑器为核心的数据处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.x-ways.net/winhex/)          | /    |
+  | Binwalk    | 可识别文件分离提取工具，常用于从文件中提取隐写到其中的其他文件。<img src="./src/linux.svg" width="17" height="17" /> | [Github](https://github.com/ReFirmLabs/binwalk) | /    |
+  | Foremost   | 用于提取一个文件中包含的多个文件。<img src="./src/linux.svg" width="17" height="17" /> | /                                               | /    |
+
+- **隐写工具 | 图像 / 音频**
+
+  | 项目名称              | Usage                                                        | 项目地址                                                   | 文档                                                       |
+  | --------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------- |
+  | QR Research           | 专业的二维码扫描识别软件，支持多个纠错等级，掩码选项。<img src="./src/windows.svg" width="17" height="17" /> | /                                                          | /                                                          |
+  | UleadGIFAnimator      | 高级GIF编辑器                                                | /                                                          | [吾爱论坛](https://www.52pojie.cn/thread-1276299-1-1.html) |
+  | **-----图像类**       |                                                              |                                                            |                                                            |
+  | Stegsolve             | 图像分析工具。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Giotino/stegsolve)             | /                                                          |
+  | WaterMark（隐藏水印） | 图像隐写工具，在频域添加数字水印 <img src="./src/windows.svg" width="17" height="17" /> | /                                                          | [吾爱论坛](https://www.52pojie.cn/thread-709668-1-1.html)  |
+  | TweakPNG              | 用于检查和修改PNG图像文件（和010的png template差不多） <img src="./src/windows.svg" width="17" height="17" /> | [官网](https://entropymine.com/jason/tweakpng/)            | /                                                          |
+  | WaterMarkH            | 单图盲水印（频域隐写）工具                                   | /                                                          | /                                                          |
+  | zsteg                 | 图片隐写                                                     | [Github](https://github.com/zed-0xff/zsteg)                | /                                                          |
+  | StegoVeritas          | 图片隐写                                                     | [Github](https://github.com/bannsec/stegoVeritas)          | /                                                          |
+  | Stegdetect            | 检测jpeg图像隐写工具，搭配stegbreak食用更佳                  | [Github](https://github.com/abeluck/stegdetect)            | /                                                          |
+  | **-----音频类**       |                                                              |                                                            |                                                            |
+  | Steghide              | 将文件隐藏到**图片或音频**中的工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> | [官网](https://steghide.sourceforge.net/)                  | /                                                          |
+  | Audacity              | 多轨音频处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [Github](https://github.com/audacity/audacity)             | /                                                          |
+  | Mp3stego              | 音频隐写提取工具<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.petitcolas.net/steganography/mp3stego/) | /                                                          |
+  | Silenteye             | 音频/图像隐写工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://achorein.github.io/silenteye/)              | /                                                          |
+  | DeepSound             | 可以将文件加密保存到一段声音文件中<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://jpinsoft.net/deepsound/documentation.aspx)  | /                                                          |
+  | Mp3tag                | 音频文件元资料编辑器 <img src="./src/windows.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.mp3tag.de/en/)                          | /                                                          |
+
+- **取证工具**
+
+  | 项目名称                | Usage                                                        | 项目地址                                                     | 文档  |
+  | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+  | Forensics-Wiki          | 取证综合资料库<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://www.forensics-wiki.com/)                      | /     |
+  | **-----密码爆破**       | -----                                                        | -----                                                        | ----- |
+  | ZipCenOp                | 伪加密加/解密工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/442048209as/ZipCenOp)            | /     |
+  | ARCHPR                  | 压缩文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /     |
+  | Ziperello               | zip压缩包密码恢复软件。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /     |
+  | Aopr                    | Office文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /     |
+  | Passware Kit Forensic   | 十分强大的解密工具，各类文件/磁盘密码爆破，密钥搜索等        | /                                                            | /     |
+  | hashcat                 | 密码爆破                                                     | [Github](https://github.com/hashcat/hashcat)                 | /     |
+  | john                    | 密码爆破                                                     | [Github](https://github.com/openwall/john)                   | /     |
+  | hydra                   | 密码爆破                                                     | [Github](https://github.com/vanhauser-thc/thc-hydra)         | /     |
+  | **-----流量分析**       | -----                                                        | -----                                                        | ----- |
+  | Wireshark               | 流量分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.wireshark.org/)                           | /     |
+  | **-----内存 磁盘 取证** | -----                                                        | -----                                                        | ----- |
+  | Volatility              | 内存分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.volatilityfoundation.org/)<br />[Github](https://github.com/volatilityfoundation) | /     |
+  | MemProcFS               | 新型内存取证框架                                             | [Github](https://github.com/ufrisk/MemProcFS)                | /     |
+  | NtfsStreamsEditor       | NTFS流分析                                                   | [官网](https://www.nirsoft.net/utils/alternate_data_streams.html) | /     |
+  | R-Studio                | 内存取证tick+磁盘文件恢复分析                                | [官网](https://www.r-studio.com/zhcn/data-recovery-software) | /     |
+  | AutoPsy                 | 用来分析磁盘映像和恢复文件的开源取证工具                     | [官网](https://www.autopsy.com/)                             | /     |
+  | RegistryExplorer        | 注册表文件分析器                                             | [官网](http://www.regxplor.com/download.html)                | /     |
+  | PowerToy                | 注册表文件分析器                                             | [Github](https://github.com/microsoft/PowerToys)             | /     |
 
 #### ❆ 其他工具	
+
+
 
 #### ❆ 解题工具
 
@@ -125,11 +158,10 @@
 - 使用工具获取便利的同时 请不要忽略对原理的学习！
 ```
 
-| 项目名称     | Usage                                                    | 相关地址                                   |
-| ------------ | -------------------------------------------------------- | ------------------------------------------ |
-| 随波逐流     | 离线加密解密，字符编码进行转换，文件隐写查看等多项功能。 | [官网](http://1o1o.xyz/index.html)         |
-| PuzzleSolver | MISC 综合解题工具，由Byxs20开发。                        | [神秘数字](761594154)                      |
-| Ciphey       | 自动化解密工具。                                         | [Github](https://github.com/Ciphey/Ciphey) |
+| 项目名称     | Usage                                                    | 相关地址                           |
+| ------------ | -------------------------------------------------------- | ---------------------------------- |
+| 随波逐流     | 离线加密解密，字符编码进行转换，文件隐写查看等多项功能。 | [官网](http://1o1o.xyz/index.html) |
+| PuzzleSolver | MISC 综合解题工具，由Byxs20开发。                        | [神秘数字](761594154)              |
 
 #### ❆ 开源脚本
 
@@ -154,7 +186,6 @@
 | Yafu             | 本地的因数分解程序                                           | [官网](https://sourceforge.net/projects/yafu/)               | /                                                         |
 | Factordb         | 在线的因数分解网站                                           | [官网](http://factordb.com/)                                 | /                                                         |
 | z3               | 开源的约束求解器，针对约束求解题型                           | [github](https://github.com/Z3Prover/z3/)                    | /                                                         |
-| CTFCrackTools    | 国内首个CTF工具框架,内涵多个主流密码加解密，支持添加支持Python编写的插件。 | [Github](https://github.com/0Chencc/CTFCrackTools)           | /                                                         |
 
 ### 💫 Reverse
 #### 解题工具
@@ -203,3 +234,34 @@ Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件�
 
 
 ###   ⚔   AWD 
+
+
+
+## 🗡渗透工具
+
+### 📡信息收集
+
+| 项目名称 | Usage | 项目地址 | 其他 |
+| -------- | ----- | -------- | ---- |
+| Gobuster | 目录扫描 | [Github](https://github.com/OJ/gobuster) | / |
+| Dirsearch                                                    | 目录扫描                                                     | [Github](https://github.com/maurosoria/dirsearch)    | /    |
+| JSFinder                                                     | JS信息收集                                                   | [Github](https://github.com/Threezh1/JSFinder)       | /    |
+| Phonebook                                                    | 域名邮箱收集                                                 | [UsagePage](https://phonebook.cz/)                   | /    |
+| LaZagne                                                      | 密码凭证收集                                                 | [Github](https://github.com/AlessandroZ/LaZagne)     | /    |
+| SpringBootExploit                                            | SpringBoot综合利用工具                                       | [Github](https://github.com/0x727/SpringBootExploit) | /    |
+| Log4j2Scan                                                   | Log4j漏洞探测                                                | [Github](https://github.com/whwlsfb/Log4j2Scan)      | /    |
+| ShiroAttack2                                                 | Shiro框架漏洞利用工具                                        | [Github](https://github.com/SummerSec/ShiroAttack2)  | /    |
+| Fastjson                                                     | Fastjson扫描器，可识别版本、依赖库、autoType状态等           | [Github](https://github.com/a1phaboy/FastjsonScan)   | /    |
+| WeblogicTool                                                 | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等 | [Github](https://github.com/KimJun1010/WeblogicTool) | /    |
+| [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io)   | 类unix渗透                                                   | [Github](https://gtfobins.github.io/)                | /    |
+| [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS)           | Windows渗透-二程序                                           | [Github](https://lolbas-project.github.io/)          | /    |
+| [LOLDrivers](https://github.com/magicsword-io/LOLDrivers)    | Windows渗透-驱动                                             | [Github](https://www.loldrivers.io/)                 | /    |
+| [LOOBins](https://github.com/infosecB/LOOBins)               | Macos渗透                                                    | [Github](https://www.loobins.io/)                    | /    |
+| [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面                                            | [Github](https://www.revshells.com/)                 | /    |
+| Fscan                                                        | 内网扫描                                                     | [Github](https://github.com/shadow1ng/fscan)         | /    |
+| Stowaway                                                     | 内网穿透                                                     | [Github](https://github.com/ph4ntonn/Stowaway)       | /    |
+| SharpHostInfo                                                | 内网主机探测                                                 | [Github](https://github.com/shmilylty/SharpHostInfo) | /    |
+| LadonGo                                                      | 内网渗透扫描                                                 | [Github](https://github.com/k8gege/LadonGo)          | /    |
+| Neo-reGeorg                                                  | 代理工具                                                     | [Github](https://github.com/L-codes/Neo-reGeorg)     | /    |
+| Erfrp                                                        | frp二开                                                      | [Github](https://github.com/Goqi/Erfrp)              | /    |
+|                                                              |                                                              |                                                      ||
