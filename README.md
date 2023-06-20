@@ -1,9 +1,12 @@
 <div align="center">  
     <img src="https://nssctf.wdf.ink//img/WDTJ/202306170145878.png" width="300px">
     <h3>Cyb3r-工具仓库</h3>
+    <a href="#🏴-ctf-工具合集">    CTF工具    </a>|<a href="#🗡渗透工具">    渗透工具    </a> 
     <p> Cybersecurity tool repository.</p>
     <p>收录常用 / 前沿 的安全工具以及其文档，覆盖CTF和实战渗透领域，努力的尝试清除信息差。</p>
 </div> 
+
+
 
 ## ☁ 关于本项目 & 声明
 
@@ -34,8 +37,6 @@
 
 ## 🏴 CTF 工具合集
 
-
-
 ### 🪐  环境基础
 
 | 项目名称           | Usage                                                        | 项目地址                                                     | 使用文档 |
@@ -51,7 +52,7 @@
 | Watt Toolkit       | Github Discord 部分谷歌服务 页面元素CDN 访问加速 \| <br />不是用来让你打游戏的啊喂(#`O′)！<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/BeyondDimension/SteamTools)      |    /     |
 | Clash              | 部分服务访问加速 \| 我也只能说这么多<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Dreamacro/clash)                 |    /     |
 
-
+---
 
 ### 🌐  Web
 
@@ -69,6 +70,8 @@
 | SQLMap<img src="./src/application.svg" width="19" height="13" /> | 自动化的SQL注入利用工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/sqlmapproject/sqlmap)            | /        | /    |
 | JD-GUI <img src="./src/application.svg" width="19" height="13" /> | Jar包反编译工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/java-decompiler/jd-gui)          | /        | /    |
 | Ysoserial<img src="./src/application.svg" width="19" height="13" /> | Java 反序列漏洞利用工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/frohoff/ysoserial)               | /        | /    |
+
+---
 
 ### 🕸  MISC
 
@@ -100,54 +103,53 @@
 
 - **隐写工具 | 图像 / 音频**
 
-  | 项目名称              | Usage                                                        | 项目地址                                                   | 文档                                                       |
-  | --------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------- |
-  | QR Research           | 专业的二维码扫描识别软件，支持多个纠错等级，掩码选项。<img src="./src/windows.svg" width="17" height="17" /> | /                                                          | /                                                          |
-  | UleadGIFAnimator      | 高级GIF编辑器                                                | /                                                          | [吾爱论坛](https://www.52pojie.cn/thread-1276299-1-1.html) |
-  | **-----图像类**       |                                                              |                                                            |                                                            |
-  | Stegsolve             | 图像分析工具。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Giotino/stegsolve)             | /                                                          |
-  | WaterMark（隐藏水印） | 图像隐写工具，在频域添加数字水印 <img src="./src/windows.svg" width="17" height="17" /> | /                                                          | [吾爱论坛](https://www.52pojie.cn/thread-709668-1-1.html)  |
-  | TweakPNG              | 用于检查和修改PNG图像文件（和010的png template差不多） <img src="./src/windows.svg" width="17" height="17" /> | [官网](https://entropymine.com/jason/tweakpng/)            | /                                                          |
-  | WaterMarkH            | 单图盲水印（频域隐写）工具                                   | /                                                          | /                                                          |
-  | zsteg                 | 图片隐写                                                     | [Github](https://github.com/zed-0xff/zsteg)                | /                                                          |
-  | StegoVeritas          | 图片隐写                                                     | [Github](https://github.com/bannsec/stegoVeritas)          | /                                                          |
-  | Stegdetect            | 检测jpeg图像隐写工具，搭配stegbreak食用更佳                  | [Github](https://github.com/abeluck/stegdetect)            | /                                                          |
-  | **-----音频类**       |                                                              |                                                            |                                                            |
-  | Steghide              | 将文件隐藏到**图片或音频**中的工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> | [官网](https://steghide.sourceforge.net/)                  | /                                                          |
-  | Audacity              | 多轨音频处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [Github](https://github.com/audacity/audacity)             | /                                                          |
-  | Mp3stego              | 音频隐写提取工具<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.petitcolas.net/steganography/mp3stego/) | /                                                          |
-  | Silenteye             | 音频/图像隐写工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://achorein.github.io/silenteye/)              | /                                                          |
-  | DeepSound             | 可以将文件加密保存到一段声音文件中<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://jpinsoft.net/deepsound/documentation.aspx)  | /                                                          |
-  | Mp3tag                | 音频文件元资料编辑器 <img src="./src/windows.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.mp3tag.de/en/)                          | /                                                          |
+  | 项目名称                                                     | Usage                                                        | 项目地址                                                     | 文档                                                       |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- |
+  | QR Research                                                  | 专业的二维码扫描识别软件，支持多个纠错等级，掩码选项(已停止维护)。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /                                                          |
+  | UleadGIFAnimator                                             | 高级GIF编辑器                                                | /                                                            | [吾爱论坛](https://www.52pojie.cn/thread-1276299-1-1.html) |
+  | **-----图像类**                                              |                                                              |                                                              |                                                            |
+  | Stegsolve                                                    | 图像分析工具。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/Giotino/stegsolve)               | /                                                          |
+  | TweakPNG                                                     | 用于检查和修改PNG图像文件 \|类似于010的Png Template功能 <img src="./src/windows.svg" width="17" height="17" /> | [官网](https://entropymine.com/jason/tweakpng/)              | /                                                          |
+  | BlindWaterMark(python)                                       | 基于 python 的图像盲水印                                     | [Github](https://github.com/ww23/BlindWatermark)             | /                                                          |
+  | BlindWatermark(java)                                         | 基于 java 的图像盲水印                                       | [Github](https://github.com/ww23/BlindWatermark)             | /                                                          |
+  | WaterMark(隐藏水印)                                          | 图像隐写工具，在频域添加数字水印 <img src="./src/windows.svg" width="17" height="17" /> | /                                                            | [吾爱论坛](https://www.52pojie.cn/thread-709668-1-1.html)  |
+  | WaterMarkH                                                   | 单图盲水印(频域隐写)工具                                     | /                                                            | /                                                          |
+  | zsteg                                                        | PNG 和 BMP 图片隐写                                          | [Github](https://github.com/zed-0xff/zsteg)                  | /                                                          |
+  | StegoVeritas                                                 | 隐写工具                                                     | [Github](https://github.com/bannsec/stegoVeritas)            | /                                                          |
+  | Stegdetect                                                   | 检测jpeg图像隐写工具，搭配stegbreak食用更佳                  | [Github](https://github.com/abeluck/stegdetect)              | /                                                          |
+  | **-----音频类**                                              |                                                              |                                                              |                                                            |
+  | Steghide                                                     | 将文件隐藏到**图片或音频**中的工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> | [官网](https://steghide.sourceforge.net/)                    | /                                                          |
+  | Audacity                                                     | 多轨音频处理软件。<img src="./src/windows.svg" width="17" height="17" /> | [Github](https://github.com/audacity/audacity)               | /                                                          |
+  | Mp3stego                                                     | 音频隐写提取工具<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://www.petitcolas.net/steganography/mp3stego/)   | /                                                          |
+  | Silenteye                                                    | 音频/图像隐写工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://achorein.github.io/silenteye/)                | /                                                          |
+  | DeepSound                                                    | 可以将文件加密保存到一段声音文件中<img src="./src/windows.svg" width="17" height="17" /> | [官网](https://jpinsoft.net/deepsound/documentation.aspx)    | /                                                          |
+  | Mp3tag                                                       | 音频文件元资料编辑器 <img src="./src/windows.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.mp3tag.de/en/)                            | /                                                          |
+  | Qrazybox<img src="./src/chrome.svg" width="19" height="13" /> | 二维码分析和恢复<img src="./src/chrome.svg" width="19" height="13" /> | [Github](https://github.com/Merricx/qrazybox)<br />[Usagepage](https://merri.cx/qrazybox/) |                                                            |
 
 - **取证工具**
 
-  | 项目名称                | Usage                                                        | 项目地址                                                     | 文档  |
-  | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
-  | Forensics-Wiki          | 取证综合资料库<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://www.forensics-wiki.com/)                      | /     |
-  | **-----密码爆破**       | -----                                                        | -----                                                        | ----- |
-  | ZipCenOp                | 伪加密加/解密工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/442048209as/ZipCenOp)            | /     |
-  | ARCHPR                  | 压缩文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /     |
-  | Ziperello               | zip压缩包密码恢复软件。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /     |
-  | Aopr                    | Office文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /     |
-  | Passware Kit Forensic   | 十分强大的解密工具，各类文件/磁盘密码爆破，密钥搜索等        | /                                                            | /     |
-  | hashcat                 | 密码爆破                                                     | [Github](https://github.com/hashcat/hashcat)                 | /     |
-  | john                    | 密码爆破                                                     | [Github](https://github.com/openwall/john)                   | /     |
-  | hydra                   | 密码爆破                                                     | [Github](https://github.com/vanhauser-thc/thc-hydra)         | /     |
-  | **-----流量分析**       | -----                                                        | -----                                                        | ----- |
-  | Wireshark               | 流量分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.wireshark.org/)                           | /     |
-  | **-----内存 磁盘 取证** | -----                                                        | -----                                                        | ----- |
-  | Volatility              | 内存分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.volatilityfoundation.org/)<br />[Github](https://github.com/volatilityfoundation) | /     |
-  | MemProcFS               | 新型内存取证框架                                             | [Github](https://github.com/ufrisk/MemProcFS)                | /     |
-  | NtfsStreamsEditor       | NTFS流分析                                                   | [官网](https://www.nirsoft.net/utils/alternate_data_streams.html) | /     |
-  | R-Studio                | 内存取证tick+磁盘文件恢复分析                                | [官网](https://www.r-studio.com/zhcn/data-recovery-software) | /     |
-  | AutoPsy                 | 用来分析磁盘映像和恢复文件的开源取证工具                     | [官网](https://www.autopsy.com/)                             | /     |
-  | RegistryExplorer        | 注册表文件分析器                                             | [官网](http://www.regxplor.com/download.html)                | /     |
-  | PowerToy                | 注册表文件分析器                                             | [Github](https://github.com/microsoft/PowerToys)             | /     |
-
-#### ❆ 其他工具	
-
-
+  | 项目名称                | Usage                                                        | 项目地址                                                     | 文档 |
+  | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+  | Forensics-Wiki          | 取证综合资料库<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://www.forensics-wiki.com/)                      | /    |
+  | **-----密码爆破**       |                                                              |                                                              |      |
+  | ZipCenOp                | 伪加密加/解密工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/442048209as/ZipCenOp)            | /    |
+  | ARCHPR                  | 压缩文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
+  | Ziperello               | zip压缩包密码恢复软件。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
+  | Aopr                    | Office文件密码暴力破解工具。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /    |
+  | Passware Kit Forensic   | 十分强大的解密工具，各类文件/磁盘密码爆破，密钥搜索等        | /                                                            | /    |
+  | hashcat                 | 密码爆破                                                     | [Github](https://github.com/hashcat/hashcat)                 | /    |
+  | john                    | 密码爆破                                                     | [Github](https://github.com/openwall/john)                   | /    |
+  | hydra                   | 密码爆破                                                     | [Github](https://github.com/vanhauser-thc/thc-hydra)         | /    |
+  | **-----流量分析**       |                                                              |                                                              |      |
+  | Wireshark               | 流量分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.wireshark.org/)                           | /    |
+  | **-----内存 磁盘 取证** |                                                              |                                                              |      |
+  | Volatility              | 内存分析取证软件。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.volatilityfoundation.org/)<br />[Github](https://github.com/volatilityfoundation) | /    |
+  | MemProcFS               | 新型内存取证框架                                             | [Github](https://github.com/ufrisk/MemProcFS)                | /    |
+  | NtfsStreamsEditor       | NTFS流分析                                                   | [官网](https://www.nirsoft.net/utils/alternate_data_streams.html) | /    |
+  | R-Studio                | 内存取证tick+磁盘文件恢复分析                                | [官网](https://www.r-studio.com/zhcn/data-recovery-software) | /    |
+  | AutoPsy                 | 用来分析磁盘映像和恢复文件的开源取证工具                     | [官网](https://www.autopsy.com/)                             | /    |
+  | RegistryExplorer        | 注册表文件分析器                                             | [官网](http://www.regxplor.com/download.html)                | /    |
+  | PowerToy                | 注册表文件分析器                                             | [Github](https://github.com/microsoft/PowerToys)             | /    |
 
 #### ❆ 解题工具
 
@@ -173,6 +175,7 @@
 | 文件反转、倒置、导出工具          | [Github](https://github.com/AabyssZG/FileReverse-Tools)      | [AabyssZG (曾哥) )](https://github.com/AabyssZG) |
 | 自动化内存取证_GUI版本            | [Github](https://github.com/Tokeii0/VolatilityPro)           | [Tokeii0 (猫捉鱼) ](https://github.com/Tokeii0)  |
 
+---
 
 ### 🔑 Crypto
 
@@ -185,53 +188,54 @@
 | Sagemath         | 开源的数学软件系统,整合了许多开源Python包。 <img src="./src/linux.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.sagemath.org/)<br />[Github](https://github.com/sagemath) | [Sage 中文文档](https://www.osgeo.cn/sagemath/index.html) |
 | Yafu             | 本地的因数分解程序                                           | [官网](https://sourceforge.net/projects/yafu/)               | /                                                         |
 | Factordb         | 在线的因数分解网站                                           | [官网](http://factordb.com/)                                 | /                                                         |
-| z3               | 开源的约束求解器，针对约束求解题型                           | [github](https://github.com/Z3Prover/z3/)                    | /                                                         |
+| z3               | 开源的约束求解器，针对约束求解题型                           | [Github](https://github.com/Z3Prover/z3/)                    | /                                                         |
+
+---
 
 ### 💫 Reverse
+
 #### 解题工具
 | 项目名称       | Usage | 项目地址 | 项目文档 |
 | ------------   | ----- | -------- | -------- |
 | IDA            | 最常用的静态逆向工具 | [官网](https://hex-rays.com/ida-pro/)        |  [ida pro权威指南](https://github.com/Coldwave96/WebSecurity/blob/master/IDA%20Pro%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89.pdf)        |
 | Ghidra         | 开源的静态逆向工具，和IDA作用相同      | [官网](https://ghidra-sre.org/)         | / |
 | Ollydbg        | 同为反汇编调试器(官方已经停止维护)     | [官网](https://www.ollydbg.de/)         | /         |
-| DIE            | 查壳工具，拿到程序第一件事就是分析文件类型，是否有壳   | [github](https://github.com/horsicq/Detect-It-Easy)   | [github](https://github.com/horsicq/Detect-It-Easy)  |
+| DIE            | 查壳工具，拿到程序第一件事就是分析文件类型，是否有壳   | [Github](https://github.com/horsicq/Detect-It-Easy)   | [Github](https://github.com/horsicq/Detect-It-Easy)  |
 | Exeinfope      | 同为查壳工具      | [官网](http://www.exeinfo.byethost18.com)    | /         |
 | Cheat Engine   | 对程序的内存数据进行扫描和调试，十分强大，但是用得不多 | [官网](https://www.cheatengine.org/)   |  /        |
 | JEB            | 强大的APK逆向工具，针对Mobile类型的逆向题目    | / |/|
-| jd-gui         | 逆向Jar包 |[github](http://java-decompiler.github.io/)     | /      |
-| x64dbg/x32dbg  | 在windows上使用的开源x64/x32调试器      | [官网](https://x64dbg.com/)         | / |
-| unpy2exe       | 对py2exe打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/matiasb/unpy2exe)         | / |
-| pyinstxtractor | 对pyInstaller打包的python程序提取字节码文件  **（.pyc）**      | [github](https://github.com/extremecoders-re/pyinstxtractor)         | / |
-| [python]uncompyle | 用于对Python字节码文件 **（.pyc）** 的反汇编，将其变成python源代码      | [官网](https://pypi.org/project/uncompyle6/)         | /         |
-| gdb            | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳   | 使用包管理工具安装      | [Sourceware](https://www.sourceware.org/gdb/documentation/)   |
-| z3             | 开源的约束求解器，针对约束求解题型    | [github](https://github.com/Z3Prover/z3/)     | /        |
-| dnSpy          | 强大的.NET调试、修改和反编译的工具(已停止维护)    | [github](https://github.com/dnSpy/dnSpy)     | /         |
+| JD-GUI    | 逆向Jar包 |[Github](http://java-decompiler.github.io/)     | /      |
+| x64dbg / x32dbg | 在windows上使用的开源x64/x32调试器      | [官网](https://x64dbg.com/)         | / |
+| Unpy2exe       | 对py2exe打包的python程序提取字节码文件  **(.pyc)**      | [Github](https://github.com/matiasb/unpy2exe)         | / |
+| Pyinstxtractor | 对pyInstaller打包的python程序提取字节码文件  **(.pyc)**      | [Github](https://github.com/extremecoders-re/pyinstxtractor)         | / |
+| [Python]uncompyle | 用于对Python字节码文件 **(.pyc)** 的反汇编，将其变成python源代码      | [官网](https://pypi.org/project/uncompyle6/)         | /         |
+| GDB         | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳   | 使用包管理工具安装      | [Sourceware](https://www.sourceware.org/gdb/documentation/)   |
+| z3             | 开源的约束求解器，针对约束求解题型    | [Github](https://github.com/Z3Prover/z3/)     | /        |
+| dnSpy          | 强大的.NET调试、修改和反编译的工具(已停止维护)    | [Github](https://github.com/dnSpy/dnSpy)     | /         |
 
 **使用流程**
 
-```
-拿到一个文件，先分析它是什么类型的文件，可以在Linux下使用flie来查看他是什么类型的文件（一般是一个可执行文件），分析后查看它是否有壳，有的话先脱壳，脱壳后针对文件类型来使用逆向工具，如Jar包我们就用jd-gui，.NET文件我们就使用dnSpy，IDA一般是万金油，不知道用什么的话就先用IDA静态分析。在了解程序大概结构后，我们可以对程序关键部分下断点进行动态调试，但在这之前，我们或许还会遇到需要解决混淆和反调试保护等问题......本文注重工具的介绍，这里不再对题型过多赘述。
-```
+拿到一个文件，先分析它是什么类型的文件，可以在Linux下使用flie来查看他是什么类型的文件(一般是一个可执行文件)，分析后查看它是否有壳，有的话先脱壳，脱壳后针对文件类型来使用逆向工具，如Jar包我们就用jd-gui，.NET文件我们就使用dnSpy，IDA一般是万金油，不知道用什么的话就先用IDA静态分析。在了解程序大概结构后，我们可以对程序关键部分下断点进行动态调试，但在这之前，我们或许还会遇到需要解决混淆和反调试保护等问题......本文注重工具的介绍，这里不再对题型过多赘述。
 
-
+---
 
 ### 💥 PWN
 | 项目名称       | Usage | 项目地址 | 其他 |
 | ------------   | ----- | -------- | -------- |
-| GDB       | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳     | [Sourceware](https://www.sourceware.org/gdb/documentation/)  | /  |
-| Pwntools    | 用于编写EXP     | [github](https://github.com/Gallopsled/pwntools)     | /   |
-| Pwncli | 一款简单、易用的`pwn`题调试与攻击工具，帮助你快速编写`pwn`题攻击脚本，并实现本地调试和远程攻击的便捷切换，提高你在`CTF`比赛中调试`pwn`题脚本的速度与效率。 | [Github](https://github.com/RoderickChan/pwncli) | / |
-| Checksec    | 查看二进制文件开启了哪些保护机制   | [github](https://github.com/slimm609/checksec.sh)  | /        |
-| ROPgadget   | 编写ROP的EXP时需要用到，可以帮助你寻找合适的gadgets     | [github](https://github.com/JonathanSalwan/ROPgadget) | /        |
-| objdump     | 反汇编工具，查看文件的一些表信息，如got表   | /                                                           | /                                                           |
+| GDB       | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳。    | [Sourceware](https://www.sourceware.org/gdb/documentation/)  | /  |
+| Pwntools    | 用于编写EXP。    | [Github](https://github.com/Gallopsled/pwntools)     | /   |
+| Pwncli | 一款简单、易用的`pwn`题调试与攻击工具，帮助你快速编写`pwn`题攻击脚本，并实现本地调试和远程攻击的便捷切换，提高你在`CTF`比赛中调试`pwn`题脚本的速度与效率。。、 | [Github](https://github.com/RoderickChan/pwncli) | / |
+| Checksec    | 查看二进制文件开启了哪些保护机制。  | [Github](https://github.com/slimm609/checksec.sh)  | /        |
+| ROPgadget   | 编写ROP的EXP时需要用到，可以帮助你寻找合适的gadgets。    | [Github](https://github.com/JonathanSalwan/ROPgadget) | /        |
+| objdump     | 反汇编工具，查看文件的一些表信息，如got表。  | /                                                           | /                                                           |
+| radare2 | UNIX-like reverse engineering framework and command-line toolset. | [Github](https://github.com/radareorg/radare2) | / |
+| windbg | Window 内核模式和用户模式代码调试。 | [Microsoft Learn](https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/debugger-download-tools) | /    |
 
 **使用流程**
 
-```
 Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件类型，然后再对文件开启的保护机制分析，反汇编出它的源代码，对源代码的逻辑分析，找出漏洞，编写EXP,在编写EXP的过程中，我们可以使用gdb在本地动态调试，一步一步修改我们的EXP,Pwn掉这题！
-```
 
-
+---
 
 ###   ⚔   AWD 
 
@@ -241,27 +245,72 @@ Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件�
 
 ### 📡信息收集
 
-| 项目名称 | Usage | 项目地址 | 其他 |
-| -------- | ----- | -------- | ---- |
-| Gobuster | 目录扫描 | [Github](https://github.com/OJ/gobuster) | / |
-| Dirsearch                                                    | 目录扫描                                                     | [Github](https://github.com/maurosoria/dirsearch)    | /    |
-| JSFinder                                                     | JS信息收集                                                   | [Github](https://github.com/Threezh1/JSFinder)       | /    |
-| Phonebook                                                    | 域名邮箱收集                                                 | [UsagePage](https://phonebook.cz/)                   | /    |
-| LaZagne                                                      | 密码凭证收集                                                 | [Github](https://github.com/AlessandroZ/LaZagne)     | /    |
-| SpringBootExploit                                            | SpringBoot综合利用工具                                       | [Github](https://github.com/0x727/SpringBootExploit) | /    |
-| Log4j2Scan                                                   | Log4j漏洞探测                                                | [Github](https://github.com/whwlsfb/Log4j2Scan)      | /    |
-| ShiroAttack2                                                 | Shiro框架漏洞利用工具                                        | [Github](https://github.com/SummerSec/ShiroAttack2)  | /    |
-| Fastjson                                                     | Fastjson扫描器，可识别版本、依赖库、autoType状态等           | [Github](https://github.com/a1phaboy/FastjsonScan)   | /    |
-| WeblogicTool                                                 | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等 | [Github](https://github.com/KimJun1010/WeblogicTool) | /    |
-| [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io)   | 类unix渗透                                                   | [Github](https://gtfobins.github.io/)                | /    |
-| [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS)           | Windows渗透-二程序                                           | [Github](https://lolbas-project.github.io/)          | /    |
-| [LOLDrivers](https://github.com/magicsword-io/LOLDrivers)    | Windows渗透-驱动                                             | [Github](https://www.loldrivers.io/)                 | /    |
-| [LOOBins](https://github.com/infosecB/LOOBins)               | Macos渗透                                                    | [Github](https://www.loobins.io/)                    | /    |
-| [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面                                            | [Github](https://www.revshells.com/)                 | /    |
-| Fscan                                                        | 内网扫描                                                     | [Github](https://github.com/shadow1ng/fscan)         | /    |
-| Stowaway                                                     | 内网穿透                                                     | [Github](https://github.com/ph4ntonn/Stowaway)       | /    |
-| SharpHostInfo                                                | 内网主机探测                                                 | [Github](https://github.com/shmilylty/SharpHostInfo) | /    |
-| LadonGo                                                      | 内网渗透扫描                                                 | [Github](https://github.com/k8gege/LadonGo)          | /    |
-| Neo-reGeorg                                                  | 代理工具                                                     | [Github](https://github.com/L-codes/Neo-reGeorg)     | /    |
-| Erfrp                                                        | frp二开                                                      | [Github](https://github.com/Goqi/Erfrp)              | /    |
-|                                                              |                                                              |                                                      ||
+- 资产搜索 / 测绘
+
+  | 名称       | UsagePage                   | 其他                                                 |
+  | ---------- | --------------------------- | ---------------------------------------------------- |
+  | Fofa       | https://fofa.info/          | [Fofa_viewer](https://github.com/wgpsec/fofa_viewer) |
+  | 360Quake   | https://quake.360.net/quake | /                                                    |
+  | 钟馗之眼   | https://www.zoomeye.org/    | /                                                    |
+  | 鹰图平台   | https://hunter.qianxin.com/ | /                                                    |
+  | VirusTotal | https://www.virustotal.com/ | /                                                    |
+  | Shodan     | www.shodan.io               | /                                                    |
+  | Google     | www.google.com              | [GoogleHackingTool](https://ght.se7ensec.cn/)        |
+  | 谛听       | https://www.ditecting.com/  | 工控安全的搜索引擎                                   |
+
+- 实体信息收集
+
+  | 项目名称     | Usage                                                        | 项目地址                                               | 其他 |
+  | ------------ | ------------------------------------------------------------ | ------------------------------------------------------ | ---- |
+  | 灯塔(ARL)    | 关联资产收集工具                                             | [Github](https://github.com/TophantTechnology/ARL)     | /    |
+  | Full-Scanner | 信息收集整合工具                                             | [Github](https://github.com/Zhao-sai-sai/Full-Scanner) | /    |
+  | OneForAll    | 功能强大的子域收集工具                                       | [Github](https://github.com/shmilylty/OneForAll/)      | /    |
+  | FileScan     | 敏感文件扫描 / 二次判断降低误报率 / 扫描内容规则化 / 多目录扫描 | [Github](https://github.com/Mosuan/FileScan)           | /    |
+  | Gobuster     | 目录扫描                                                     | [Github](https://github.com/OJ/gobuster)               | /    |
+  | Dirsearch    | 目录扫描                                                     | [Github](https://github.com/maurosoria/dirsearch)      | /    |
+  | JSFinder     | JS信息收集                                                   | [Github](https://github.com/Threezh1/JSFinder)         | /    |
+  | Linkfinder   | JS中链接以及敏感参数扫描                                     | [Github](https://github.com/GerbenJavado/LinkFinder)   |      |
+  | Phonebook    | 域名邮箱收集                                                 | [UsagePage](https://phonebook.cz/)                     | /    |
+  | LaZagne      | 密码凭证收集                                                 | [Github](https://github.com/AlessandroZ/LaZagne)       | /    |
+
+### 🎯漏洞利用
+
+| 项目名称          | Usage                                                        | 项目地址                                             | 其他 |
+| ----------------- | ------------------------------------------------------------ | ---------------------------------------------------- | ---- |
+| SpringBootExploit | SpringBoot综合利用工具                                       | [Github](https://github.com/0x727/SpringBootExploit) | /    |
+| Log4j2Scan        | Log4j漏洞探测                                                | [Github](https://github.com/whwlsfb/Log4j2Scan)      | /    |
+| ShiroAttack2      | Shiro框架漏洞利用工具                                        | [Github](https://github.com/SummerSec/ShiroAttack2)  | /    |
+| Fastjson          | Fastjson扫描器，可识别版本、依赖库、autoType状态等           | [Github](https://github.com/a1phaboy/FastjsonScan)   | /    |
+| WeblogicTool      | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等 | [Github](https://github.com/KimJun1010/WeblogicTool) | /    |
+
+### 💻LOLBins
+
+```
+LOLBins(Living Off The Land Binaries) 
+```
+
+| 项目名称                                                     | Usage                     | 项目地址                                       | 其他 |
+| ------------------------------------------------------------ | :------------------------ | ---------------------------------------------- | ---- |
+| [GTFOBins](https://github.com/GTFOBins/GTFOBins.github.io)   | 类unix渗透-二进制文件列表 | [UsagePage](https://gtfobins.github.io/)       | /    |
+| [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS)           | Windows 渗透-程序         | [UsagePage](https://lolbas-project.github.io/) | /    |
+| [LOLDrivers](https://github.com/magicsword-io/LOLDrivers)    | Windows 渗透-驱动         | [UsagePage](https://www.loldrivers.io/)        | /    |
+| [LOOBins](https://github.com/infosecB/LOOBins)               | MacOS 渗透-程序           | [UsagePage](https://www.loobins.io/)           | /    |
+| [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面         | [UsagePage](https://www.revshells.com/)        | /    |
+
+### ⚙内网工具
+
+| 项目名称      | Usage        | 项目地址                                             | 其他 |
+| ------------- | ------------ | ---------------------------------------------------- | ---- |
+| Fscan         | 内网扫描     | [Github](https://github.com/shadow1ng/fscan)         | /    |
+| Stowaway      | 内网穿透     | [Github](https://github.com/ph4ntonn/Stowaway)       | /    |
+| SharpHostInfo | 内网主机探测 | [Github](https://github.com/shmilylty/SharpHostInfo) | /    |
+| LadonGo       | 内网渗透扫描 | [Github](https://github.com/k8gege/LadonGo)          | /    |
+| Neo-reGeorg   | 代理工具     | [Github](https://github.com/L-codes/Neo-reGeorg)     | /    |
+| Erfrp         | frp二开      | [Github](https://github.com/Goqi/Erfrp)              | /    |
+
+### 📢提权辅助
+
+| 项目名称                                                     | Usage             | 项目地址                                | 其他 |
+| ------------------------------------------------------------ | :---------------- | --------------------------------------- | ---- |
+| [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面 | [UsagePage](https://www.revshells.com/) | /    |
+
