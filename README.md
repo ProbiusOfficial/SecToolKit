@@ -1,7 +1,7 @@
 <div align="center">  
     <img src="https://nssctf.wdf.ink//img/WDTJ/202306170145878.png" width="300px">
     <h3>Cyb3r-工具仓库</h3>
-    <a href="#-ctf-工具合集">    CTF工具    </a>|<a href="#-渗透工具">    渗透工具    </a> 
+    <a href="#-ctf-工具合集">    CTF工具    </a>|<a href="#渗透工具">    渗透工具    </a> 
     <p> Cybersecurity tool repository.</p>
     <p>收录常用 / 前沿 的安全工具以及其文档，覆盖CTF和实战渗透领域，努力的尝试清除信息差。</p>
 </div> 
