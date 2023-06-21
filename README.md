@@ -1,10 +1,11 @@
 <div align="center">  
     <img src="https://nssctf.wdf.ink//img/WDTJ/202306170145878.png" width="300px">
     <h3>Cyb3r-工具仓库</h3>
-    <a href="#🏴-ctf-工具合集">    CTF工具    </a>|<a href="#🗡渗透工具">    渗透工具    </a> 
+    <a href="#-ctf-工具合集">    CTF工具    </a>|<a href="#-渗透工具">    渗透工具    </a> 
     <p> Cybersecurity tool repository.</p>
     <p>收录常用 / 前沿 的安全工具以及其文档，覆盖CTF和实战渗透领域，努力的尝试清除信息差。</p>
 </div> 
+
 
 
 
@@ -173,6 +174,7 @@
 | --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
 | 自动爆破PNG图片宽高并一键修复工具 | [Github](https://github.com/AabyssZG/Deformed-Image-Restorer) | [AabyssZG (曾哥) )](https://github.com/AabyssZG) |
 | 文件反转、倒置、导出工具          | [Github](https://github.com/AabyssZG/FileReverse-Tools)      | [AabyssZG (曾哥) )](https://github.com/AabyssZG) |
+| CRC碰撞全自动化脚本               | [Github](https://github.com/AabyssZG/CRC32-Tools)            | [AabyssZG (曾哥) )](https://github.com/AabyssZG) |
 | 自动化内存取证_GUI版本            | [Github](https://github.com/Tokeii0/VolatilityPro)           | [Tokeii0 (猫捉鱼) ](https://github.com/Tokeii0)  |
 
 ---
@@ -247,16 +249,18 @@ Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件�
 
 - 资产搜索 / 测绘
 
-  | 名称       | UsagePage                   | 其他                                                 |
-  | ---------- | --------------------------- | ---------------------------------------------------- |
-  | Fofa       | https://fofa.info/          | [Fofa_viewer](https://github.com/wgpsec/fofa_viewer) |
-  | 360Quake   | https://quake.360.net/quake | /                                                    |
-  | 钟馗之眼   | https://www.zoomeye.org/    | /                                                    |
-  | 鹰图平台   | https://hunter.qianxin.com/ | /                                                    |
-  | VirusTotal | https://www.virustotal.com/ | /                                                    |
-  | Shodan     | www.shodan.io               | /                                                    |
-  | Google     | www.google.com              | [GoogleHackingTool](https://ght.se7ensec.cn/)        |
-  | 谛听       | https://www.ditecting.com/  | 工控安全的搜索引擎                                   |
+  | 名称           | UsagePage                   | 其他                                                 |
+  | -------------- | --------------------------- | ---------------------------------------------------- |
+  | Fofa           | https://fofa.info/          | [Fofa_viewer](https://github.com/wgpsec/fofa_viewer) |
+  | 360Quake       | https://quake.360.net/quake | /                                                    |
+  | 钟馗之眼       | https://www.zoomeye.org/    | /                                                    |
+  | 鹰图平台       | https://hunter.qianxin.com/ | /                                                    |
+  | 谛听           | https://www.ditecting.com/  | 工控安全的搜索引擎                                   |
+  | ----           |                             |                                                      |
+  | VirusTotal     | https://www.virustotal.com/ | /                                                    |
+  | Shodan         | www.shodan.io               | /                                                    |
+  | Google         | www.google.com              | [GoogleHackingTool](https://ght.se7ensec.cn/)        |
+  | SecurityTrails | https://securitytrails.com/ | /                                                    |
 
 - 实体信息收集
 
