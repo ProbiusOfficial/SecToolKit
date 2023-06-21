@@ -306,7 +306,7 @@ LOLBins(Living Off The Land Binaries)
 | SharpHostInfo | 内网主机探测 | [Github](https://github.com/shmilylty/SharpHostInfo) | /    |
 | LadonGo       | 内网渗透扫描 | [Github](https://github.com/k8gege/LadonGo)          | /    |
 | Neo-reGeorg   | 代理工具     | [Github](https://github.com/L-codes/Neo-reGeorg)     | /    |
-| Erfrp         | frp二开      | [Github](https://github.com/Goqi/Erfrp)              | /    |
+| Erfrp         | frp二开项目  | [Github](https://github.com/Goqi/Erfrp)              | /    |
 
 ### 📢提权辅助
 
