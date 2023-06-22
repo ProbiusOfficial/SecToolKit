@@ -21,6 +21,10 @@
 - 对于 渗透 工具，以常用工具为主。也会同步收集更新一些前沿工具或者项目，同样要求为开源项目，如果项目长久失修，或者其他异常，我们会添加对应标记。  
 - 注意，本项目中所有工具和技术，**仅用于安全技术研究讨论**，请勿进行任何非授权渗透行为，否则请自行承担责任。
 
+如果您要转载本项目，转载时请注明原作者和项目源地址:https://github.com/ProbiusOfficial/SecTool。
+
+为了方便您分享该项目，可使用短链接 http://tool.ctf.dog/ 进行分享。
+
 若本项目对您有所帮助，请在页面右上角点个 Star :star: 支持一下，谢谢！
 
 ## 💻常用软件
@@ -55,7 +59,7 @@
 
 ---
 
-### 🌐  Web
+### 🌐  Web | Web安全
 
 - 注意 工具包含 应用程序<img src="./src/application.svg" width="19" height="13" /> 和 浏览器插件<img src="./src/chrome.svg" width="19" height="13" />
 - 以下为Web常用工具或者说基础工具，一些漏洞利用程序将不会被归纳到这，您可以 点击此处 查看后方的CTF项目归档来查找更多工具。
@@ -74,19 +78,19 @@
 
 ---
 
-### 🕸  MISC
+### 🕸  MISC | 杂项
 
 #### ❆ 基础工具
 
 - **基础语言 | 模块**
 
-  | 项目名称 | Usage                      | 项目地址                        | 文档 |
-  | -------- | -------------------------- | ------------------------------- | ---- |
-  | Python   | MISC方向中用途最广的语言。 | [官网](https://www.python.org/) | /    |
+| 项目名称 | Usage                      | 项目地址                        | 文档 |
+| -------- | -------------------------- | ------------------------------- | ---- |
+| Python   | MISC方向中用途最广的语言。 | [官网](https://www.python.org/) | /    |
 
 - **编码 / 解码 / 解密 工具**
 
-  | 项目名称      | Usage                                                        | 项目地址                                                     | 文档 |
+| 项目名称      | Usage                                                        | 项目地址                                                     | 文档 |
   | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
   | CyberChef     | 近乎全能的编码解码工具。<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://cyberchef.org/)<br />[国内中文镜像站](https://ctf.mzy0.com/CyberChef3/) | /    |
   | Ciphey        | 自动化解密工具。                                             | [Github](https://github.com/Ciphey/Ciphey)                   |      |
@@ -94,7 +98,7 @@
 
 - **文本 / Hex 编辑 | 文件工具**	
 
-  | 项目名称   | Usage                                                        | 项目地址                                        | 文档 |
+| 项目名称   | Usage                                                        | 项目地址                                        | 文档 |
   | ---------- | ------------------------------------------------------------ | ----------------------------------------------- | ---- |
   | 010 Editor | 专业的文本编辑器和16进制编辑器，可通过加载模块脚本，解析文件结构。<img src="./src/windows.svg" width="17" height="17" /><img src="./src/linux.svg" width="17" height="17" /> | [官网](http://www.010editor.com/)               | /    |
   | lmHex      | 开源的16进制编辑器。 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/WerWolv/ImHex)      |      |
@@ -104,7 +108,7 @@
 
 - **隐写工具 | 图像 / 音频**
 
-  | 项目名称                                                     | Usage                                                        | 项目地址                                                     | 文档                                                       |
+| 项目名称                                                     | Usage                                                        | 项目地址                                                     | 文档                                                       |
   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- |
   | Qrazybox<img src="./src/chrome.svg" width="19" height="13" /> | 二维码分析和恢复<img src="./src/chrome.svg" width="19" height="13" /> | [Github](https://github.com/Merricx/qrazybox)<br />[Usagepage](https://merri.cx/qrazybox/) |                                                            |
   | QR Research                                                  | 专业的二维码扫描识别软件，支持多个纠错等级，掩码选项(已停止维护)。<img src="./src/windows.svg" width="17" height="17" /> | /                                                            | /                                                          |
@@ -129,7 +133,7 @@
 
 - **取证工具**
 
-  | 项目名称                | Usage                                                        | 项目地址                                                     | 文档                                                         |
+| 项目名称                | Usage                                                        | 项目地址                                                     | 文档                                                         |
   | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
   | Forensics-Wiki          | 取证综合资料库<img src="./src/chrome.svg" width="19" height="13" /> | [官网](https://www.forensics-wiki.com/)                      | /                                                            |
   | **-----密码爆破**       |                                                              |                                                              |                                                              |
@@ -180,24 +184,27 @@
 
 ---
 
-### 🔑 Crypto
+### 🔑 Crypto | 密码学
 
-| 项目名称         | Usage                                                        | 项目地址                                                     | 其它                                                      |
-| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- |
-| Python           | CTF密码学中离不开的语言x<img src="./src/python.svg" width="17" height="17" /> | [官网](https://www.python.org/)                              | /                                                         |
-| [Python]Crypto包 | 密码学工具库，用于在Python中实现各种加密、解密和哈希算法。<img src="./src/python.svg" width="17" height="17" /> | /                                                            | /                                                         |
-| [Python]gmpy2包  | 包含了许多常用的数论函数和算法，适配各种大整数情况，算法效率高于原生库。<img src="./src/python.svg" width="17" height="17" /> | [Github](https://github.com/aleaxit/gmpy)                    | /                                                         |
-| [Python]numpy包  | 基于C代码实现了底层数据结构和计算函数优化，适用于处理大型数据集和高性能计算，在密码学中常用于矩阵类运算。<img src="./src/python.svg" width="17" height="17" /> | [Github](https://github.com/numpy/numpy)<br />[官网](https://numpy.org/) | /                                                         |
-| Sagemath         | 开源的数学软件系统,整合了许多开源Python包。 <img src="./src/linux.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.sagemath.org/)<br />[Github](https://github.com/sagemath) | [Sage 中文文档](https://www.osgeo.cn/sagemath/index.html) |
-| Yafu             | 本地的因数分解程序                                           | [官网](https://sourceforge.net/projects/yafu/)               | /                                                         |
-| Factordb         | 在线的因数分解网站                                           | [官网](http://factordb.com/)                                 | /                                                         |
-| z3               | 开源的约束求解器，针对约束求解题型                           | [Github](https://github.com/Z3Prover/z3/)                    | /                                                         |
+| 项目名称                                                     | Usage                                                        | 项目地址                                                     | 其它                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- |
+| ---**语言 \| 模块**                                          |                                                              |                                                              |                                                           |
+| Python                                                       | CTF密码学中离不开的语言x                                     | [官网](https://www.python.org/)                              | /                                                         |
+| Crypto 包<img src="./src/python.svg" width="17" height="17" /> | 密码学工具库，用于在Python中实现各种加密、解密和哈希算法。   | [Github](https://github.com/Legrandin/pycryptodome)          | /                                                         |
+| gmpy2 包<img src="./src/python.svg" width="17" height="17" /> | 包含了许多常用的数论函数和算法，适配各种大整数情况，算法效率高于原生库。 | [Github](https://github.com/aleaxit/gmpy)                    | /                                                         |
+| numpy 包<img src="./src/python.svg" width="17" height="17" /> | 基于C代码实现了底层数据结构和计算函数优化，适用于处理大型数据集和高性能计算，在密码学中常用于矩阵类运算。 | [Github](https://github.com/numpy/numpy)<br />[官网](https://numpy.org/) | /                                                         |
+| ---**应用程序**                                              |                                                              |                                                              |                                                           |
+| Sagemath                                                     | 开源的数学软件系统,整合了许多开源Python包。 <img src="./src/linux.svg" width="17" height="17" /><img src="./src/apple.svg" width="17" height="17" /> | [官网](https://www.sagemath.org/)<br />[Github](https://github.com/sagemath) | [Sage 中文文档](https://www.osgeo.cn/sagemath/index.html) |
+| Yafu                                                         | 本地的因数分解程序                                           | [官网](https://sourceforge.net/projects/yafu/)               | /                                                         |
+| Factordb                                                     | 在线的因数分解网站                                           | [官网](http://factordb.com/)                                 | /                                                         |
+| z3                                                           | 开源的约束求解器，针对约束求解题型                           | [Github](https://github.com/Z3Prover/z3/)                    | /                                                         |
 
 ---
 
-### 💫 Reverse
+### 💫 Reverse | 逆向
 
 #### 基础工具
+
 | 项目名称       | Usage | 项目地址 | 其他 |
 | ------------   | ----- | -------- | -------- |
 | 微步沙箱 | 文件敏感操作检查<img src="./src/chrome.svg" width="19" height="13" /> | [UsagePage](https://s.threatbook.com) | / |
@@ -219,105 +226,161 @@
 | GDA                  | 支持apk, dex, odex, oat, jar, class, aar文件的反编译， 支持python及java脚本自动化分析 | [官网](http://www.gda.wiki:9090/)                            | /                                                            |
 | Fernflower           | IDEA 采用的反编译工具,支持Jar包反编译。                      | [Github](https://github.com/fesh0r/fernflower)               | /                                                            |
 | ----**Python反编译** |                                                              |                                                              |                                                              |
-| Unpy2exe             | 对py2exe打包的python程序提取字节码文件  **(.pyc)**           | [Github](https://github.com/matiasb/unpy2exe)                | /                                                            |
-| Pyinstxtractor       | 对pyInstaller打包的python程序提取字节码文件  **(.pyc)**      | [Github](https://github.com/extremecoders-re/pyinstxtractor) | /                                                            |
-| [Python]uncompyle    | 用于对Python字节码文件 **(.pyc)** 的反汇编，将其变成python源代码 | [官网](https://pypi.org/project/uncompyle6/)                 | /                                                            |
+| pycdc                | pyc反编译,对高版本有不错兼容性。                       | [Github](https://github.com/zrax/pycdc)                      | /                                                            |
+| Unpy2exe             | 对py2exe打包的python程序提取字节码文件  **(.pyc)**。         | [Github](https://github.com/matiasb/unpy2exe)               | /                                                            |
+| Pyinstxtractor       | 对pyInstaller打包的python程序提取字节码文件  **(.pyc)**。    | [Github](https://github.com/extremecoders-re/pyinstxtractor) | /                                                            |
+| [Python]uncompyle    | 用于对Python字节码文件 **(.pyc)** 的反汇编，将其变成python源代码。 | [官网](https://pypi.org/project/uncompyle6/)                 | /                                                            |
 
-**使用流程**
-
-拿到一个文件，先分析它是什么类型的文件，可以在Linux下使用flie来查看他是什么类型的文件(一般是一个可执行文件)，分析后查看它是否有壳，有的话先脱壳，脱壳后针对文件类型来使用逆向工具，如Jar包我们就用jd-gui，.NET文件我们就使用dnSpy，IDA一般是万金油，不知道用什么的话就先用IDA静态分析。在了解程序大概结构后，我们可以对程序关键部分下断点进行动态调试，但在这之前，我们或许还会遇到需要解决混淆和反调试保护等问题......本文注重工具的介绍，这里不再对题型过多赘述。
+<div>  
+    <!-- 拿到一个文件，先分析它是什么类型的文件，可以在Linux下使用flie来查看他是什么类型的文件(一般是一个可执行文件)，分析后查看它是否有壳，有的话先脱壳，脱壳后针对文件类型来使用逆向工具，如Jar包我们就用jd-gui，.NET文件我们就使用dnSpy，IDA一般是万金油，不知道用什么的话就先用IDA静态分析。在了解程序大概结构后，我们可以对程序关键部分下断点进行动态调试，但在这之前，我们或许还会遇到需要解决混淆和反调试保护等问题......本文注重工具的介绍，这里不再对题型过多赘述。 -->
+</div> 
 
 ---
 
-### 💥 PWN
+### 💥 PWN | 二进制
 | 项目名称       | Usage | 项目地址 | 其他 |
 | ------------   | ----- | -------- | -------- |
 | GDB       | 一般用于ELF的动态调试，配合插件(如pwngdb，gdb-peda)使用更佳。    | [Sourceware](https://www.sourceware.org/gdb/documentation/)  | /  |
 | Pwntools    | 用于编写EXP。    | [Github](https://github.com/Gallopsled/pwntools)     | /   |
-| Pwncli | 一款简单、易用的`pwn`题调试与攻击工具，帮助你快速编写`pwn`题攻击脚本，并实现本地调试和远程攻击的便捷切换，提高你在`CTF`比赛中调试`pwn`题脚本的速度与效率。。、 | [Github](https://github.com/RoderickChan/pwncli) | / |
+| Pwncli | 一款简单、易用的`pwn`题调试与攻击工具，帮助你快速编写`pwn`题攻击脚本，并实现本地调试和远程攻击的便捷切换，提高你在`CTF`比赛中调试`pwn`题脚本的速度与效率。 | [Github](https://github.com/RoderickChan/pwncli) | / |
 | Checksec    | 查看二进制文件开启了哪些保护机制。  | [Github](https://github.com/slimm609/checksec.sh)  | /        |
 | ROPgadget   | 编写ROP的EXP时需要用到，可以帮助你寻找合适的gadgets。    | [Github](https://github.com/JonathanSalwan/ROPgadget) | /        |
 | objdump     | 反汇编工具，查看文件的一些表信息，如got表。  | /                                                           | /                                                           |
 | radare2 | UNIX-like reverse engineering framework and command-line toolset. | [Github](https://github.com/radareorg/radare2) | / |
 | windbg | Window 内核模式和用户模式代码调试。 | [Microsoft Learn](https://learn.microsoft.com/zh-cn/windows-hardware/drivers/debugger/debugger-download-tools) | /    |
 
-**使用流程**
-
-Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件类型，然后再对文件开启的保护机制分析，反汇编出它的源代码，对源代码的逻辑分析，找出漏洞，编写EXP,在编写EXP的过程中，我们可以使用gdb在本地动态调试，一步一步修改我们的EXP,Pwn掉这题！
+<div>  
+    <!-- Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件类型，然后再对文件开启的保护机制分析，反汇编出它的源代码，对源代码的逻辑分析，找出漏洞，编写EXP,在编写EXP的过程中，我们可以使用gdb在本地动态调试，一步一步修改我们的EXP,Pwn掉这题！ -->
+</div> 
 
 ---
 
-###   ⚔   AWD 
+###   🛡   AWD  / AWDP
 
 
 
 ## 🗡渗透工具
 
+### <img src="./src/chrome.svg" width="19" height="13" />浏览器插件
+
+| 插件名称                                                     | Usage                                                        | 项目地址                                                     | 其他 |
+| :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| hackbar <img src="./src/chrome.svg" width="19" height="13" /> | 浏览器插件，能够在页面上直接完成 请求/响应内容编辑，完成各种包括但是不限于伪造的工作。 | [谷歌商店](https://chrome.google.com/webstore/detail/ginpbkfigcoaokgflihfhhmglmbchinc)<br />[Github](https://github.com/Mr-xn/hackbar2.1.3) | /    |
+| Proxy SwitchyOmega <img src="./src/chrome.svg" width="19" height="13" /> | 代理管理软件，方便一个浏览器多个代理端口的切换。             | [Github](https://github.com/FelisCatus/SwitchyOmega)         | /    |
+| Wappalyzer <img src="./src/chrome.svg" width="19" height="13" /> | 页面技术识别软件，方便快速定位页面的框架技术等信息           | [官网](https://www.wappalyzer.com/)                          | /    |
+
 ### 📡信息收集
 
 - 资产搜索 / 测绘
 
-  | 名称                                                         | UsagePage                   | 其他                                                   |
-  | ------------------------------------------------------------ | --------------------------- | ------------------------------------------------------ |
-  | Fofa<img src="./src/chrome.svg" width="19" height="13" />    | https://fofa.info/          | [Fofa_viewer](https://github.com/wgpsec/fofa_viewer)   |
-  | 360Quake<img src="./src/chrome.svg" width="19" height="13" /> | https://quake.360.net/quake | /                                                      |
-  | 钟馗之眼<img src="./src/chrome.svg" width="19" height="13" /> | https://www.zoomeye.org/    | /                                                      |
-  | 鹰图平台<img src="./src/chrome.svg" width="19" height="13" /> | https://hunter.qianxin.com/ | /                                                      |
-  | 谛听<img src="./src/chrome.svg" width="19" height="13" />    | https://www.ditecting.com/  | 工控安全的搜索引擎                                     |
-  | ----                                                         |                             |                                                        |
-  | VirusTotal<img src="./src/chrome.svg" width="19" height="13" /> | https://www.virustotal.com/ | /                                                      |
-  | Shodan<img src="./src/chrome.svg" width="19" height="13" />  | www.shodan.io               | /                                                      |
-  | Google<img src="./src/chrome.svg" width="19" height="13" />  | www.google.com              | [GoogleHackingTool](https://ght.se7ensec.cn/)          |
-  | SecurityTrails<img src="./src/chrome.svg" width="19" height="13" /> | https://securitytrails.com/ | /                                                      |
-  | ----                                                         |                             |                                                        |
-  | Full-Scanner<img src="./src/application.svg" width="19" height="13" /> | 信息收集整合工具            | [Github](https://github.com/Zhao-sai-sai/Full-Scanner) |
-  | 灯塔(ARL)<img src="./src/application.svg" width="19" height="13" /> | 关联资产收集工具            | [Github](https://github.com/TophantTechnology/ARL)     |
-  | OneForAll<img src="./src/application.svg" width="19" height="13" /> | 功能强大的子域收集工具      | [Github](https://github.com/shmilylty/OneForAll/)      |
+| 名称                                                         | 关于                                                 | Usage                                                  |
+| ------------------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------------ |
+| ----**在线工具**                                             |                                                      |                                                        |
+| Fofa<img src="./src/chrome.svg" width="19" height="13" />    | [Fofa_viewer](https://github.com/wgpsec/fofa_viewer) | [UsagePage](https://fofa.info/)                        |
+| 360Quake<img src="./src/chrome.svg" width="19" height="13" /> | /                                                    | [UsagePage](https://quake.360.net/quake)               |
+| 钟馗之眼<img src="./src/chrome.svg" width="19" height="13" /> | /                                                    | [UsagePage](https://www.zoomeye.org/)                  |
+| 鹰图平台<img src="./src/chrome.svg" width="19" height="13" /> | /                                                    | [UsagePage](https://hunter.qianxin.com/)               |
+| 谛听<img src="./src/chrome.svg" width="19" height="13" />    | 工控安全的搜索引擎                                   | [UsagePage](https://www.ditecting.com/)                |
+| VirusTotal<img src="./src/chrome.svg" width="19" height="13" /> | /                                                    | [UsagePage](https://www.virustotal.com/)               |
+| Shodan<img src="./src/chrome.svg" width="19" height="13" />  | /                                                    | [UsagePage](www.shodan.io)                             |
+| Google<img src="./src/chrome.svg" width="19" height="13" />  | [GoogleHackingTool](https://ght.se7ensec.cn/)        | [UsagePage](www.google.com)                            |
+| SecurityTrails<img src="./src/chrome.svg" width="19" height="13" /> | /                                                    | [UsagePage](https://securitytrails.com/)               |
+| ----**应用程序**                                             |                                                      |                                                        |
+| Full-Scanner<img src="./src/application.svg" width="19" height="13" /> | 信息收集整合工具                                     | [Github](https://github.com/Zhao-sai-sai/Full-Scanner) |
+| 灯塔(ARL)<img src="./src/application.svg" width="19" height="13" /> | 关联资产收集工具                                     | [Github](https://github.com/TophantTechnology/ARL)     |
+| OneForAll<img src="./src/application.svg" width="19" height="13" /> | 功能强大的子域收集工具                               | [Github](https://github.com/shmilylty/OneForAll/)      |
+| SiteScan<img src="./src/application.svg" width="19" height="13" /> | 一站化解决渗透测试信息收集任务                       | [Github](https://github.com/kracer127/SiteScan)        |
 
 - 指纹识别
 
-  | 名称         | UsagePage                     | 其他 |
-  | ------------ | ----------------------------- | ---- |
-  | 云悉指纹     | http://www.yunsee.cn/         | /    |
-  | WhatCMS      | https://whatcms.org/          | /    |
-  | 360 Finger-P | https://fp.shuziguanxing.com/ | /    |
-  
+| 名称                                                         | UsagePage                     | 其他 |
+| ------------------------------------------------------------ | ----------------------------- | ---- |
+| 云悉指纹<img src="./src/chrome.svg" width="19" height="13" /> | http://www.yunsee.cn/         | /    |
+| WhatCMS<img src="./src/chrome.svg" width="19" height="13" /> | https://whatcms.org/          | /    |
+| 360 Finger-P<img src="./src/chrome.svg" width="19" height="13" /> | https://fp.shuziguanxing.com/ | /    |
+
 - 实体信息收集
 
-  | 项目名称   | Usage                                                        | 项目地址                                             | 其他 |
-  | ---------- | ------------------------------------------------------------ | ---------------------------------------------------- | ---- |
-  | FileScan   | 敏感文件扫描 / 二次判断降低误报率 / 扫描内容规则化 / 多目录扫描 | [Github](https://github.com/Mosuan/FileScan)         | /    |
-  | Dirsearch  | 目录扫描                                                     | [Github](https://github.com/maurosoria/dirsearch)    | /    |
-  | Gobuster   | 目录扫描                                                     | [Github](https://github.com/OJ/gobuster)             | /    |
-  | JSFinder   | JS信息收集                                                   | [Github](https://github.com/Threezh1/JSFinder)       | /    |
-  | Linkfinder | JS中链接以及敏感参数扫描                                     | [Github](https://github.com/GerbenJavado/LinkFinder) |      |
-  | Phonebook  | 域名邮箱收集                                                 | [UsagePage](https://phonebook.cz/)                   | /    |
-  | LaZagne    | 密码凭证收集                                                 | [Github](https://github.com/AlessandroZ/LaZagne)     | /    |
+| 项目名称         | Usage                                                        | 项目地址                                               | 其他 |
+  | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------ | ---- |
+  | Web-SurvivalScan | Web资产 快速存活验证。                                       | [Github](https://github.com/AabyssZG/Web-SurvivalScan) |      |
+  | FileScan         | 敏感文件扫描 / 二次判断降低误报率 / 扫描内容规则化 / 多目录扫描。 | [Github](https://github.com/Mosuan/FileScan)           | /    |
+  | Ffuf             | Go语言编写的Web Fuzz工具。                                   | [Github](https://github.com/ffuf/ffuf)                 | /    |
+  | Dirsearch        | 目录扫描。                                                   | [Github](https://github.com/maurosoria/dirsearch)      | /    |
+  | Gobuster         | 目录扫描。                                                   | [Github](https://github.com/OJ/gobuster)               | /    |
+  | JSFinder         | JS信息收集。                                                 | [Github](https://github.com/Threezh1/JSFinder)         | /    |
+  | Linkfinder       | JS中链接以及敏感参数扫描。                                   | [Github](https://github.com/GerbenJavado/LinkFinder)   | /    |
+  | Phonebook        | 域名邮箱收集。                                               | [UsagePage](https://phonebook.cz/)                     | /    |
+  | LaZagne          | 密码凭证收集。                                               | [Github](https://github.com/AlessandroZ/LaZagne)       | /    |
+
+### 🚪端口扫描
+
+| 项目名称 | Usage                                             | 项目地址                                           | 其他                                               |
+| :------- | ------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
+| Scaninfo | 开源、轻量、快速、跨平台 的红队内外网打点扫描器。 | [Github](https://github.com/redtoolskobe/scaninfo) | /                                                  |
+| Nmap     | 最常用的端口扫描工具                              | [官网](https://nmap.org)                           | [官方中文文档](https://nmap.org/man/zh/index.html) |
+| Zenmap   | Nmap_GUI                                          | [官网](https://nmap.org/zenmap/)                   | /                                                  |
+| 御剑     | 御剑端口扫描工具                                  | [Github](https://github.com/foryujian/yjdirscan)   | /                                                  |
+
+### 🧶代理抓包
+
+| 项目名称   | Usage                                                        | 项目地址                                         | 其他                                               |
+| :--------- | ------------------------------------------------------------ | ------------------------------------------------ | -------------------------------------------------- |
+| Burp Suite | 代理抓包软件，用于Web应用程序的渗透测试和攻击<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://portswigger.net/burp)             | /                                                  |
+| Yakit      | 高度集成化的渗透测试平台。                                   | [Github](https://github.com/yaklang)             | [官方文档](https://www.yaklang.io/products/intro/) |
+| Mitmproxy  | HTTP代理                                                     | [Github](https://github.com/mitmproxy/mitmproxy) | /                                                  |
+| Proxifier  | 重定向应用程序到代理端口。                                   | [官网](https://www.proxifier.com/)               | /                                                  |
 
 ### 🤖Webshell管理
 
 | 项目名称         | Usage                                                        | 项目地址                                                     | 其他 |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| 蚁剑(antSword)   | 开源的跨平台Webshell管理工具。                               | [Github](https://github.com/AntSwordProject/antSword)        |      |
-| 冰蝎(Behinder)   | 具有优秀的加密传输特性的Webshell管理工具。                   | [Github](https://github.com/rebeyond/Behinder)               |      |
-| 哥斯拉(Godzilla) | 支持对载荷进行AES等各种加密，支持自定义Http头，支持内存shell，提供丰富的Webshell功能。 | [Github](https://github.com/BeichenDream/Godzilla)           |      |
-| Weevely3         | 基于python编写，集webshell生成和连接于一身，采用c/s模式构建。 | [Github](https://github.com/epinna/weevely3)                 |      |
-| 天蝎权限管理工具 | 基于冰蝎加密流量进行WebShell通信管理的原理，目前实现了jsp、aspx、php、asp端的常用操作功能，做出了许多优化。**(已停止外部更新)** | [Github](https://github.com/shack2/skyscorpion)              |      |
-| 中国菜刀         | PHP、ASP、ASPX webshell管理工具 对一些古老站点有奇效。**(已停止维护)** | [Github](https://github.com/raddyfiy/caidao-official-version) |      |
+| 蚁剑(antSword)   | 开源的跨平台Webshell管理工具。                               | [Github](https://github.com/AntSwordProject/antSword)        | /    |
+| 冰蝎(Behinder)   | 具有优秀的加密传输特性的Webshell管理工具。                   | [Github](https://github.com/rebeyond/Behinder)               | /    |
+| 哥斯拉(Godzilla) | 支持对载荷进行AES等各种加密，支持自定义Http头，支持内存shell，提供丰富的Webshell功能。 | [Github](https://github.com/BeichenDream/Godzilla)           | /    |
+| Weevely3         | 基于python编写，集webshell生成和连接于一身，采用c/s模式构建。 | [Github](https://github.com/epinna/weevely3)                 | /    |
+| 天蝎权限管理工具 | 基于冰蝎加密流量进行WebShell通信管理的原理，目前实现了jsp、aspx、php、asp端的常用操作功能，做出了许多优化。**(已停止外部更新)** | [Github](https://github.com/shack2/skyscorpion)              | /    |
+| 中国菜刀         | PHP、ASP、ASPX webshell管理工具 对一些古老站点有奇效。**(已停止维护)** | [Github](https://github.com/raddyfiy/caidao-official-version) | /    |
 
 ### 🎯漏洞探测&利用
 
-| 项目名称          | Usage                                                        | 项目地址                                             | 其他 |
-| ----------------- | ------------------------------------------------------------ | ---------------------------------------------------- | ---- |
-| SpringBootExploit | SpringBoot综合利用工具                                       | [Github](https://github.com/0x727/SpringBootExploit) | /    |
-| Log4j2Scan        | Log4j漏洞探测                                                | [Github](https://github.com/whwlsfb/Log4j2Scan)      | /    |
-| ShiroAttack2      | Shiro框架漏洞利用工具                                        | [Github](https://github.com/SummerSec/ShiroAttack2)  | /    |
-| Fastjson          | Fastjson扫描器，可识别版本、依赖库、autoType状态等           | [Github](https://github.com/a1phaboy/FastjsonScan)   | /    |
-| WeblogicTool      | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等 | [Github](https://github.com/KimJun1010/WeblogicTool) | /    |
-| Xray              |                                                              |                                                      |      |
-| Xray-GUI          |                                                              |                                                      |      |
-| Goby              |                                                              |                                                      |      |
-| SQLMap            |                                                              |                                                      |      |
+| 项目名称                                                     | Usage                                                        | 项目地址                                                     | 其他                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------- |
+| Goby                                                         | 集资产测绘和漏洞扫描 以及多样化功能插件于一身的扫描器。      | [官网](https://gobysec.net/)                                 | /                                     |
+| Xray                                                         | 一款功能强大的安全评估工具。<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/chaitin/xray)                    | [官方文档](https://docs.xray.cool/#/) |
+| SuperXray                                                    | Xray扫描器的GUI版本。<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/4ra1n/super-xray)                | /                                     |
+| Vscan                                                        | 开源、轻量、快速、跨平台 的网站漏洞扫描工具。                | [Github](https://github.com/veo/vscan)                       | /                                     |
+| Afrog                                                        | 高性能的漏洞扫描器。                                         | [Github](https://github.com/zan8in/afrog)                    | /                                     |
+| Scaninfo                                                     | 开源、轻量、快速、跨平台 的红队内外网打点扫描器。            | [Github](https://github.com/redtoolskobe/scaninfo)           | /                                     |
+| OSV-Scanner                                                  | 谷歌开源漏洞扫描器                                           | [Github](https://github.com/google/osv-scanner)              | /                                     |
+| Wpscan                                                       | Wordpress漏洞扫描器                                          | [Github](https://github.com/wpscanteam/wpscan)               |                                       |
+| Nuclei                                                       | 一款注重于可配置性、可扩展性和易用性的基于模板的快速漏洞扫描器,可通过yaml构建模板 | [Github](https://github.com/projectdiscovery/nuclei/tree/main) | /                                     |
+| ----**Database**                                             |                                                              |                                                              |                                       |
+| SQLMap<img src="./src/application.svg" width="19" height="13" /> | 自动化的SQL注入利用工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/sqlmapproject/sqlmap)            | /                                     |
+| SuperSQLInjectionV1                                          | C#开发的SQL注入辅助工具                                      | [Github](https://github.com/shack2/SuperSQLInjectionV1)      |                                       |
+| ----**JavaWeb**                                              |                                                              |                                                              |                                       |
+| Log4j2Scan                                                   | Log4j漏洞探测                                                | [Github](https://github.com/whwlsfb/Log4j2Scan)              | /                                     |
+| Ysoserial<img src="./src/application.svg" width="19" height="13" /> | Java 反序列漏洞利用工具 <img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/frohoff/ysoserial)               | /                                     |
+| Ysomap                                                       | Java 反序列漏洞利用工具                                      | [Github](https://github.com/wh1t3p1g/ysomap)                 | /                                     |
+| SB-Scan(错乱                                                 | 针对Spring Boot的开源渗透框架，主要用作扫描敏感信息泄露端点，可直接测试Spring的相关高危漏洞。 | [Github](https://github.com/AabyssZG/SpringBoot-Scan)        | /                                     |
+| SpringBootExploit                                            | SpringBoot综合利用工具                                       | [Github](https://github.com/0x727/SpringBootExploit)         | /                                     |
+| ShiroAttack2                                                 | Shiro框架漏洞利用工具                                        | [Github](https://github.com/SummerSec/ShiroAttack2)          | /                                     |
+| Fastjson                                                     | Fastjson扫描器，可识别版本、依赖库、autoType状态等           | [Github](https://github.com/a1phaboy/FastjsonScan)           | /                                     |
+| WeblogicTool                                                 | WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等 | [Github](https://github.com/KimJun1010/WeblogicTool)         | /                                     |
+| Struts2-Scan                                                 | Struts2漏洞利用扫描工具                                      | [Github](https://github.com/HatBoy/Struts2-Scan)             | /                                     |
+| JNDIExploit                                                  | JNDI多功能利用工具                                           | [Github](https://github.com/qi4L/JNDIExploit)                | /                                     |
+| ----**PHPWeb**                                               |                                                              |                                                              |                                       |
+| Thinkphp_gui_tools                                           | ThinkPHP漏洞综合利用工具                                     | [Github](https://github.com/bewhale/thinkphp_gui_tools)      | /                                     |
+| ThinkLog                                                     | Tk3,5,6 日志泄漏批量下载                                     | [Github](https://github.com/Lotus6/ThinkLog)                 | /                                     |
+| ----**XSS**                                                  |                                                              |                                                              |                                       |
+| XSStrike                                                     | XSS扫描器                                                    | [Github](https://github.com/s0md3v/XSStrike)                 | /                                     |
+| PwnXSS                                                       | XSS漏洞扫描利用工具                                          | [Github](https://github.com/pwn0sec/PwnXSS)                  | /                                     |
+| Dalfox                                                       | xss漏洞扫描器                                                | [Github](https://github.com/hahwul/dalfox)                   | /                                     |
+| ----**Other**                                                |                                                              |                                                              |                                       |
+| Commix                                                       | All-in-One的自动化命令注入利用工具                           | [Github](https://github.com/commixproject/commix)            | /                                     |
+| LFISuite                                                     | 本地文件包含利用工具                                         |                                                              |                                       |
+| XXEinjector                                                  | XXE利用工具                                                  |                                                              |                                       |
+| Fuxploider                                                   | 文件上传利用工具                                             |                                                              |                                       |
 
 ### 📢提权辅助
 
@@ -325,7 +388,7 @@ Pwn的解题过程与Reverse差不多，我们拿到文件需要先分析文件�
 | ------------------------------------------------------------ | :---------------- | --------------------------------------- | ---- |
 | [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面 | [UsagePage](https://www.revshells.com/) | /    |
 
-### 💻LOLBins
+- 💻LOLBins
 
 ```
 LOLBins(Living Off The Land Binaries) 
@@ -348,5 +411,38 @@ LOLBins(Living Off The Land Binaries)
 | SharpHostInfo | 内网主机探测 | [Github](https://github.com/shmilylty/SharpHostInfo) | /    |
 | LadonGo       | 内网渗透扫描 | [Github](https://github.com/k8gege/LadonGo)          | /    |
 | Neo-reGeorg   | 代理工具     | [Github](https://github.com/L-codes/Neo-reGeorg)     | /    |
-| Erfrp         | frp二开项目  | [Github](https://github.com/Goqi/Erfrp)              | /    |
+
+### ↪端口转发
+
+| 项目名称 | Usage       | 项目地址                                | 其他 |
+| -------- | ----------- | --------------------------------------- | ---- |
+| Erfrp    | frp二开项目 | [Github](https://github.com/Goqi/Erfrp) | /    |
+
+
+
+### 🔑密码攻击
+
+| 项目名称           | Usage                                                | 项目地址                                             | 其他 |
+| ------------------ | ---------------------------------------------------- | ---------------------------------------------------- | ---- |
+| Hashcat            | 高性能，GPU/CPU 兼容的本地密码破解，支持多种不同格式 | [Github](https://github.com/hashcat/hashcat)         | /    |
+| John the Ripper    | 简单易用的离线破解                                   | [Github](https://github.com/openwall/john)           | /    |
+| Johnny             | John the Ripper GUI                                  | [Github](https://github.com/openwall/johnny)         | /    |
+| Hydra              | 远程或在线密码的并行暴力破解。                       | [Github](https://github.com/vanhauser-thc/thc-hydra) | /    |
+| 超级弱口令检查工具 | Windows平台的弱口令审计工具，支持批量多线程检查。    | [Github](https://github.com/shack2/SNETCracker)      | /    |
+
+### ⚔ 渗透框架
+
+| 项目名称     | Usage | 项目地址 | 其他 |
+| ------------ | ----- | -------- | ---- |
+| Metasploit   |       |          |      |
+| Cobaltstrike |       |          |      |
+| Yakit        |       |          |      |
+
+###  🔍漏洞情报
+
+| 名称 | 简介                   | 地址 |
+| ---- | ---------------------- | ---- |
+| OSV  | Google开源的在线漏洞库 |      |
+|      |                        |      |
+|      |                        |      |
 
