@@ -434,15 +434,25 @@ LOLBins(Living Off The Land Binaries)
 
 | 项目名称     | Usage | 项目地址 | 其他 |
 | ------------ | ----- | -------- | ---- |
-| Metasploit   |       |          |      |
-| Cobaltstrike |       |          |      |
-| Yakit        |       |          |      |
+| Metasploit   | MSF，综合渗透框架      | [Github](https://github.com/rapid7/metasploit-framework)         | /     |
+| Yakit        | Yakit，国产框架，覆盖渗透全过程      | [Github](https://github.com/yaklang/yakit)         | /     |
+
+### ⚔ C&C框架
+
+| 项目名称     | Usage | 项目地址 | 其他 |
+| ------------ | ----- | -------- | ---- |
+| Metasploit   | MSF，支持多种C2功能      | [Github](https://github.com/rapid7/metasploit-framework)         | /     |
+| Cobaltstrike | CS，业界最受欢迎、最成熟的的C2，但是其为付费工具      | [UsagePage](https://www.cobaltstrike.com/)         | /     |
+| Sliver       | 开源、跨平台的C2，支持HTTP(S)和DNS等多种协议      | [Github](https://github.com/BishopFox/sliver)         | /     |
+| Manjusaka    | 具有中文Web界面、支持一键部署启动的C2，且规避能力较强      | [Github](https://github.com/YDHCUI/manjusaka)         | /     |
+| Havoc        | 开源、正在开发中的C2，界面和功能类似于CS      | [Github](https://github.com/HavocFramework/Havoc)         | /     |
+| Empire       | 基于powershell的C2框架**(已停止维护)**      | [Github](https://github.com/EmpireProject/Empire)         | /     |
 
 ###  🔍漏洞情报
 
 | 名称 | 简介                   | 地址 |
 | ---- | ---------------------- | ---- |
 | OSV  | Google开源的在线漏洞库 |      |
-|      |                        |      |
+| Vulmon | 漏洞搜索引擎                       | [UsagePage](https://vulmon.com/)     |
 |      |                        |      |
 
