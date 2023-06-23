@@ -355,6 +355,9 @@
 | OSV-Scanner                                                  | 谷歌开源漏洞扫描器                                           | [Github](https://github.com/google/osv-scanner)              | /                                     |
 | Wpscan                                                       | Wordpress漏洞扫描器                                          | [Github](https://github.com/wpscanteam/wpscan)               |                                       |
 | Nuclei                                                       | 一款注重于可配置性、可扩展性和易用性的基于模板的快速漏洞扫描器,可通过yaml构建模板 | [Github](https://github.com/projectdiscovery/nuclei/tree/main) | /                                     |
+| OA-EXPTOOL                                                       | OA综合利用工具，集合将近20款OA漏洞批量扫描  | [Github](https://github.com/LittleBear4/OA-EXPTOOL) | /                                     |
+| Apt_t00ls                                                       | 高危漏洞利用工具  | [Github](https://github.com/White-hua/Apt_t00ls) | /                                     |
+| Railgun                                                       | 具有GUI界面的渗透工具，集成了端口扫描、端口爆破、web指纹扫描、漏洞扫描、漏洞利用以及编码转换功能  | [Github](https://github.com/lz520520/railgun) | /                                     |
 | ----**Database**                                             |                                                              |                                                              |                                       |
 | SQLMap<img src="./src/application.svg" width="19" height="13" /> | 自动化的SQL注入利用工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/sqlmapproject/sqlmap)            | /                                     |
 | SuperSQLInjectionV1                                          | C#开发的SQL注入辅助工具                                      | [Github](https://github.com/shack2/SuperSQLInjectionV1)      |                                       |
@@ -446,7 +449,7 @@ LOLBins(Living Off The Land Binaries)
 | Sliver       | 开源、跨平台的C2，支持HTTP(S)和DNS等多种协议      | [Github](https://github.com/BishopFox/sliver)         | /     |
 | Manjusaka    | 具有中文Web界面、支持一键部署启动的C2，且规避能力较强      | [Github](https://github.com/YDHCUI/manjusaka)         | /     |
 | Havoc        | 开源、正在开发中的C2，界面和功能类似于CS      | [Github](https://github.com/HavocFramework/Havoc)         | /     |
-| Empire       | 基于powershell的C2框架**(已停止维护)**      | [Github](https://github.com/EmpireProject/Empire)         | /     |
+| Empire       | 基于powershell的C2框架 **(已停止维护)**      | [Github](https://github.com/EmpireProject/Empire)         | /     |
 
 ###  🔍漏洞情报
 
