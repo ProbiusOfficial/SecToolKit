@@ -355,9 +355,9 @@
 | OSV-Scanner                                                  | 谷歌开源漏洞扫描器                                           | [Github](https://github.com/google/osv-scanner)              | /                                     |
 | Wpscan                                                       | Wordpress漏洞扫描器                                          | [Github](https://github.com/wpscanteam/wpscan)               |                                       |
 | Nuclei                                                       | 一款注重于可配置性、可扩展性和易用性的基于模板的快速漏洞扫描器,可通过yaml构建模板 | [Github](https://github.com/projectdiscovery/nuclei/tree/main) | /                                     |
-| OA-EXPTOOL                                                       | OA综合利用工具，集合将近20款OA漏洞批量扫描  | [Github](https://github.com/LittleBear4/OA-EXPTOOL) | /                                     |
-| Apt_t00ls                                                       | 高危漏洞利用工具  | [Github](https://github.com/White-hua/Apt_t00ls) | /                                     |
-| Railgun                                                       | 具有GUI界面的渗透工具，集成了端口扫描、端口爆破、web指纹扫描、漏洞扫描、漏洞利用以及编码转换功能  | [Github](https://github.com/lz520520/railgun) | /                                     |
+| OA-EXPTOOL                                                   | OA综合利用工具，集合将近20款OA漏洞批量扫描                   | [Github](https://github.com/LittleBear4/OA-EXPTOOL)          | /                                     |
+| Apt_t00ls                                                    | 高危漏洞利用工具                                             | [Github](https://github.com/White-hua/Apt_t00ls)             | /                                     |
+| Railgun                                                      | 具有GUI界面的渗透工具，集成了端口扫描、端口爆破、web指纹扫描、漏洞扫描、漏洞利用以及编码转换功能 | [Github](https://github.com/lz520520/railgun)                | /                                     |
 | ----**Database**                                             |                                                              |                                                              |                                       |
 | SQLMap<img src="./src/application.svg" width="19" height="13" /> | 自动化的SQL注入利用工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/sqlmapproject/sqlmap)            | /                                     |
 | SuperSQLInjectionV1                                          | C#开发的SQL注入辅助工具                                      | [Github](https://github.com/shack2/SuperSQLInjectionV1)      |                                       |
@@ -381,15 +381,20 @@
 | Dalfox                                                       | xss漏洞扫描器                                                | [Github](https://github.com/hahwul/dalfox)                   | /                                     |
 | ----**Other**                                                |                                                              |                                                              |                                       |
 | Commix                                                       | All-in-One的自动化命令注入利用工具                           | [Github](https://github.com/commixproject/commix)            | /                                     |
-| LFISuite                                                     | 本地文件包含利用工具                                         |                                                              |                                       |
-| XXEinjector                                                  | XXE利用工具                                                  |                                                              |                                       |
-| Fuxploider                                                   | 文件上传利用工具                                             |                                                              |                                       |
+| LFISuite                                                     | 本地文件包含利用工具                                         | [Github](https://github.com/D35m0nd142/LFISuite)             | /                                     |
+| XXEinjector                                                  | XXE利用工具                                                  | [Github](https://github.com/enjoiz/XXEinjector)              | /                                     |
+| Fuxploider                                                   | 文件上传利用工具                                             | [Github](https://github.com/almandin/fuxploider)             | /                                     |
 
 ### 📢提权辅助
 
-| 项目名称                                                     | Usage             | 项目地址                                | 其他 |
-| ------------------------------------------------------------ | :---------------- | --------------------------------------- | ---- |
-| [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面 | [UsagePage](https://www.revshells.com/) | /    |
+- 免杀辅助
+
+| 项目名称        | Usage                              | 项目地址                                             | 其他 |
+| --------------- | ---------------------------------- | ---------------------------------------------------- | ---- |
+| BypassAntiVirus | 免杀相关文献资料。                 | [Github](https://github.com/TideSec/BypassAntiVirus) | /    |
+| AV_Evasion_Tool | 掩日 - 适用于红队的综合免杀工具。  | [Github](https://github.com/1y0n/AV_Evasion_Tool)    | /    |
+| MateuszEx       | bypass AV生成工具，可过火绒 360 。 | [Github](https://github.com/sairson/MateuszEx)       | /    |
+| ShellCodeLoader | Windows平台的shellcode免杀加载器。 | [Github](https://github.com/knownsec/shellcodeloade) | /    |
 
 - 💻LOLBins
 
@@ -405,6 +410,12 @@ LOLBins(Living Off The Land Binaries)
 | [LOOBins](https://github.com/infosecB/LOOBins)               | MacOS 渗透-程序           | [UsagePage](https://www.loobins.io/)           | /    |
 | [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面         | [UsagePage](https://www.revshells.com/)        | /    |
 
+- 其他
+
+| 项目名称                                                     | Usage             | 项目地址                                | 其他 |
+| ------------------------------------------------------------ | :---------------- | --------------------------------------- | ---- |
+| [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | 反弹shell辅助页面 | [UsagePage](https://www.revshells.com/) | /    |
+
 ### ⚙内网工具
 
 | 项目名称      | Usage        | 项目地址                                             | 其他 |
@@ -417,11 +428,14 @@ LOLBins(Living Off The Land Binaries)
 
 ### ↪端口转发
 
-| 项目名称 | Usage       | 项目地址                                | 其他 |
-| -------- | ----------- | --------------------------------------- | ---- |
-| Erfrp    | frp二开项目 | [Github](https://github.com/Goqi/Erfrp) | /    |
-
-
+| 项目名称 | Usage                                                        | 项目地址                                      | 其他 |
+| -------- | ------------------------------------------------------------ | --------------------------------------------- | ---- |
+| Openvpn  | 开源VPN连接工具。                                            | [Github](https://github.com/OpenVPN/openvpn)  | /    |
+| Frp      | 专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。 | [Github](https://github.com/fatedier/frp)     | /    |
+| Erfrp    | frp二开项目,相比于原项目，更加适配攻击队。                   | [Github](https://github.com/Goqi/Erfrp)       | /    |
+| Frps     | 基于 [fatedier/frp](https://github.com/fatedier/frp) 原版 frp 内网穿透服务端 frps 的一键安装卸载脚本和 docker 镜像.支持 Linux 服务器和 docker 等多种环境安装部署。 | [Github](https://github.com/stilleshan/frps)  | /    |
+| NPS      | 带有功能强大的web管理端，支持tcp、udp、socks5、http等几乎所有流量转发。 | [Github](https://github.com/ehang-io/nps)     | /    |
+| GoProxy  | Go语言开发，多功能，支持多种协议，跨平台的代理服务。         | [Github](https://github.com/snail007/goproxy) | /    |
 
 ### 🔑密码攻击
 
@@ -455,7 +469,6 @@ LOLBins(Living Off The Land Binaries)
 
 | 名称 | 简介                   | 地址 |
 | ---- | ---------------------- | ---- |
-| OSV  | Google开源的在线漏洞库 |      |
+| OSV  | Google开源的在线漏洞库 | [UsagePage](https://osv.dev/) |
 | Vulmon | 漏洞搜索引擎                       | [UsagePage](https://vulmon.com/)     |
 |      |                        |      |
-
