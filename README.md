@@ -68,7 +68,6 @@
 | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | ---- |
 | hackbar <img src="./src/chrome.svg" width="19" height="13" /> | 浏览器插件，能够在页面上直接完成 请求/响应内容编辑，完成各种包括但是不限于伪造的工作。 | [谷歌商店](https://chrome.google.com/webstore/detail/ginpbkfigcoaokgflihfhhmglmbchinc)<br />[Github](https://github.com/Mr-xn/hackbar2.1.3) | /        | /    |
 | Proxy SwitchyOmega <img src="./src/chrome.svg" width="19" height="13" /> | 代理管理软件，方便一个浏览器多个代理端口的切换。             | [Github](https://github.com/FelisCatus/SwitchyOmega)         | /        | /    |
-| Heimdallr <img src="./src/chrome.svg" width="19" height="13" /> | 被动嗅探浏览器流量，用于提示漏洞框架指纹、告警拦截蜜罐请求、对抗浏览器特征追踪的Chrome插件             | [Github](https://github.com/Ghr07h/Heimdallr)         | /        | /    |
 | Wappalyzer <img src="./src/chrome.svg" width="19" height="13" /> | 页面技术识别软件，方便快速定位页面的框架技术等信息           | [官网](https://www.wappalyzer.com/)                          | /        | /    |
 | Burp Suite <img src="./src/application.svg" width="19" height="13" /> | 代理抓包软件，用于Web应用程序的渗透测试和攻击<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [官网](https://portswigger.net/burp)                         | /        | /    |
 | Antsword <img src="./src/application.svg" width="19" height="13" /> | 开源Webshell管理工具<img src="./src/windows.svg" width="17" height="17" /> <img src="./src/linux.svg" width="17" height="17" /> <img src="./src/apple.svg" width="17" height="17" /> | [Github](https://github.com/AntSwordProject/antSword)        | /        | /    |
@@ -269,6 +268,7 @@
 | hackbar <img src="./src/chrome.svg" width="19" height="13" /> | 浏览器插件，能够在页面上直接完成 请求/响应内容编辑，完成各种包括但是不限于伪造的工作。 | [谷歌商店](https://chrome.google.com/webstore/detail/ginpbkfigcoaokgflihfhhmglmbchinc)<br />[Github](https://github.com/Mr-xn/hackbar2.1.3) | /    |
 | Proxy SwitchyOmega <img src="./src/chrome.svg" width="19" height="13" /> | 代理管理软件，方便一个浏览器多个代理端口的切换。             | [Github](https://github.com/FelisCatus/SwitchyOmega)         | /    |
 | Wappalyzer <img src="./src/chrome.svg" width="19" height="13" /> | 页面技术识别软件，方便快速定位页面的框架技术等信息           | [官网](https://www.wappalyzer.com/)                          | /    |
+| Heimdallr <img src="./src/chrome.svg" width="19" height="13" /> | 被动嗅探浏览器流量，用于提示漏洞框架指纹、告警拦截蜜罐请求、对抗浏览器特征追踪的Chrome插件             | [Github](https://github.com/Ghr07h/Heimdallr)         | /        | /    |
 
 ### 📡信息收集
 
@@ -472,4 +472,4 @@ LOLBins(Living Off The Land Binaries)
 | ---- | ---------------------- | ---- |
 | OSV  | Google开源的在线漏洞库 | [UsagePage](https://osv.dev/) |
 | Vulmon | 漏洞搜索引擎                       | [UsagePage](https://vulmon.com/)     |
-|      |                        |      |
+| exploit-db | 漏洞利用脚本数据库 | [UsagePage](https://www.exploit-db.com/) |
