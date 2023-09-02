@@ -1,4 +1,5 @@
-name: Deploy to Github Pages
+name: Deploy to Github Pages and Update 
+
 on:
   push:
     branches:
@@ -11,12 +12,38 @@ permissions:
   contents: write
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  deploy_and_update:
+    runs-on: ubuntu-latest 
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2 https://github.com/
+
+      - name: Fetch PhishingBook.md from external repository
+        run: |
+          curl -o docs/PhishingBook.md https://raw.githubusercontent.com/tib36/PhishingBook/README.md
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: pip install mkdocs-material
+
+      - name: Deploy MkDocs
+        run: mkdocs gh-deploy --force
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add docs/PhishingBook.md
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "CHANGES=true" >> $GITHUB_ENV
+          fi
+
+      - name: Commit and push changes
+        if: env.changes == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automatically update
