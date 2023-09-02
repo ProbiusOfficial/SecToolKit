@@ -1,0 +1,138 @@
+# Project information
+site_name: SecToolKit
+site_url: https://tool.tjsec.cn/
+site_author: 探姬
+site_description: 收录常用 / 前沿 的安全工具以及其文档，覆盖CTF和实战渗透领域，努力的尝试清除信息差。
+# docs_dir: build
+# Repository
+repo_name: SecToolKit
+repo_url: https://github.com/ProbiusOfficial/SecToolKit
+edit_uri: https://github.com/ProbiusOfficial/SecToolKit/tree/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2023 探姬
+
+# Configuration
+theme:
+  name: material
+  # custom_dir: overrides
+  language: zh
+  features:
+    # - announce.dismiss        # 通知关闭
+    - content.action.edit       # 编辑操作
+    - content.action.view       # 查看操作
+    - content.code.annotate     # 代码注释
+    - content.code.copy         # 复制代码
+    - content.tabs.link         # 标签链接
+    - content.tooltips          # 工具提示
+    # - header.autohide         # 自动隐藏头部
+    # - navigation.expand       # 展开导航
+    - navigation.indexes        # 导航索引
+    - navigation.instant      # 即时导航
+    # - navigation.prune        # 导航修剪
+    # - navigation.sections     # 导航节
+    - navigation.tabs         # 导航标签
+    # - navigation.tabs.sticky  # 固定导航标签
+    - navigation.top            # 导航顶部
+    - navigation.footer         # 导航底部
+    - navigation.tracking       # 导航跟踪
+    - search.highlight          # 搜索高亮
+    - search.share              # 搜索分享
+    - search.suggest            # 搜索建议
+    - toc.follow                # 目录跟随
+    # - toc.integrate           # 目录整合
+  palette:
+    - scheme: default
+      primary: white
+      # accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: grey
+      # accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  icon:
+    logo: logo
+    repo: fontawesome/brands/github
+    edit: material/file-edit-outline
+
+extra:
+  disqus: 'open'
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/probiusofficial
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/probiusofficial
+    - icon: fontawesome/solid/video
+      link: https://space.bilibili.com/27109929
+  generator: false
+
+# Plugins
+plugins:
+  - search
+  # - blog
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  # - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+
+# Page tree
+nav:
+ - 主页:
+   - index.md
+ - CTF工具: CTF.md
+ - 渗透工具: Pene.md
+ - 钓鱼手册: PhishingBook.md
+ - 星链计划: StarLink.md
+ 
+   
+
+  
