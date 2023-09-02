@@ -21,7 +21,7 @@ jobs:
 
       - name: Fetch PhishingBook.md from external repository
         run: |
-          curl -o docs/PhishingBook.md https://raw.githubusercontent.com/tib36/PhishingBook/README.md
+          curl -o docs/PhishingBook.md https://raw.githubusercontent.com/tib36/PhishingBook/main/README.md
 
       - name: Set up Python
         uses: actions/setup-python@v2
