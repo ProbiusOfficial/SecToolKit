@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2 https://github.com/
+        uses: actions/checkout@v2
 
       - name: Fetch PhishingBook.md from external repository
         run: |
