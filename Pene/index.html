@@ -1,0 +1,1921 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="收录常用 / 前沿 的安全工具以及其文档，覆盖CTF和实战渗透领域，努力的尝试清除信息差。">
+      
+      
+        <meta name="author" content="探姬">
+      
+      
+        <link rel="canonical" href="https://tool.tjsec.cn/Pene/">
+      
+      
+        <link rel="prev" href="../CTF/">
+      
+      
+        <link rel="next" href="../PhishingBook/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>渗透工具 - SecToolKit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="SecToolKit" class="md-header__button md-logo" aria-label="SecToolKit" data-md-component="logo">
+      
+  <img src="../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SecToolKit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              渗透工具
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ProbiusOfficial/SecToolKit" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SecToolKit
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+    
+  
+  主页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CTF/" class="md-tabs__link">
+        
+  
+    
+  
+  CTF工具
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  渗透工具
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../PhishingBook/" class="md-tabs__link">
+        
+  
+    
+  
+  钓鱼手册
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../StarLink/" class="md-tabs__link">
+        
+  
+    
+  
+  星链计划
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SecToolKit" class="md-nav__button md-logo" aria-label="SecToolKit" data-md-component="logo">
+      
+  <img src="../assets/images/logo.png" alt="logo">
+
+    </a>
+    SecToolKit
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ProbiusOfficial/SecToolKit" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SecToolKit
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    主页
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            主页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CTF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CTF工具
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    渗透工具
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    渗透工具
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗡渗透工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🗡渗透工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      浏览器插件
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      📡信息收集
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚪端口扫描
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧶代理抓包
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webshell" class="md-nav__link">
+    <span class="md-ellipsis">
+      🤖Webshell管理
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯漏洞探测&amp;利用
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      📢提权辅助
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙内网工具
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      ↪端口转发
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔑密码攻击
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚔ 渗透框架
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cc" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚔ C&amp;C框架
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍漏洞情报
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PhishingBook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    钓鱼手册
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../StarLink/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    星链计划
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗡渗透工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🗡渗透工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      浏览器插件
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      📡信息收集
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚪端口扫描
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧶代理抓包
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webshell" class="md-nav__link">
+    <span class="md-ellipsis">
+      🤖Webshell管理
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯漏洞探测&amp;利用
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      📢提权辅助
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙内网工具
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      ↪端口转发
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔑密码攻击
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚔ 渗透框架
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cc" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚔ C&amp;C框架
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍漏洞情报
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/ProbiusOfficial/SecToolKit/tree/main/docs/Pene.md" title="编辑此页" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/ProbiusOfficial/SecToolKit/tree/main/docs/Pene.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
+    </a>
+  
+
+
+  <h1>渗透工具</h1>
+
+<h2 id="_1">🗡渗透工具<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="_2"><img src="../src/chrome.svg" width="19" height="13" />浏览器插件<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">插件名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">hackbar <img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>浏览器插件，能够在页面上直接完成 请求/响应内容编辑，完成各种包括但是不限于伪造的工作。</td>
+<td><a href="https://chrome.google.com/webstore/detail/ginpbkfigcoaokgflihfhhmglmbchinc">谷歌商店</a><br /><a href="https://github.com/Mr-xn/hackbar2.1.3">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td style="text-align: left;">Proxy SwitchyOmega <img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>代理管理软件，方便一个浏览器多个代理端口的切换。</td>
+<td><a href="https://github.com/FelisCatus/SwitchyOmega">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td style="text-align: left;">Wappalyzer <img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>页面技术识别软件，方便快速定位页面的框架技术等信息</td>
+<td><a href="https://www.wappalyzer.com/">官网</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">📡信息收集<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>资产搜索 / 测绘</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>关于</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>----<strong>在线工具</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fofa<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td><a href="https://github.com/wgpsec/fofa_viewer">Fofa_viewer</a></td>
+<td><a href="https://fofa.info/">UsagePage</a></td>
+</tr>
+<tr>
+<td>360Quake<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>/</td>
+<td><a href="https://quake.360.net/quake">UsagePage</a></td>
+</tr>
+<tr>
+<td>钟馗之眼<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>/</td>
+<td><a href="https://www.zoomeye.org/">UsagePage</a></td>
+</tr>
+<tr>
+<td>鹰图平台<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>/</td>
+<td><a href="https://hunter.qianxin.com/">UsagePage</a></td>
+</tr>
+<tr>
+<td>谛听<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>工控安全的搜索引擎</td>
+<td><a href="https://www.ditecting.com/">UsagePage</a></td>
+</tr>
+<tr>
+<td>VirusTotal<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>/</td>
+<td><a href="https://www.virustotal.com/">UsagePage</a></td>
+</tr>
+<tr>
+<td>Shodan<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>/</td>
+<td><a href="www.shodan.io">UsagePage</a></td>
+</tr>
+<tr>
+<td>Google<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td><a href="https://ght.se7ensec.cn/">GoogleHackingTool</a></td>
+<td><a href="www.google.com">UsagePage</a></td>
+</tr>
+<tr>
+<td>SecurityTrails<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>/</td>
+<td><a href="https://securitytrails.com/">UsagePage</a></td>
+</tr>
+<tr>
+<td>----<strong>应用程序</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Full-Scanner<img src="../src/application.svg" width="19" height="13" /></td>
+<td>信息收集整合工具</td>
+<td><a href="https://github.com/Zhao-sai-sai/Full-Scanner">Github</a></td>
+</tr>
+<tr>
+<td>灯塔(ARL)<img src="../src/application.svg" width="19" height="13" /></td>
+<td>关联资产收集工具</td>
+<td><a href="https://github.com/TophantTechnology/ARL">Github</a></td>
+</tr>
+<tr>
+<td>OneForAll<img src="../src/application.svg" width="19" height="13" /></td>
+<td>功能强大的子域收集工具</td>
+<td><a href="https://github.com/shmilylty/OneForAll/">Github</a></td>
+</tr>
+<tr>
+<td>SiteScan<img src="../src/application.svg" width="19" height="13" /></td>
+<td>一站化解决渗透测试信息收集任务</td>
+<td><a href="https://github.com/kracer127/SiteScan">Github</a></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>指纹识别</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>UsagePage</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>云悉指纹<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>http://www.yunsee.cn/</td>
+<td>/</td>
+</tr>
+<tr>
+<td>WhatCMS<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>https://whatcms.org/</td>
+<td>/</td>
+</tr>
+<tr>
+<td>360 Finger-P<img src="../src/chrome.svg" width="19" height="13" /></td>
+<td>https://fp.shuziguanxing.com/</td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>实体信息收集</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Web-SurvivalScan</td>
+<td>Web资产 快速存活验证。</td>
+<td><a href="https://github.com/AabyssZG/Web-SurvivalScan">Github</a></td>
+<td></td>
+</tr>
+<tr>
+<td>FileScan</td>
+<td>敏感文件扫描 / 二次判断降低误报率 / 扫描内容规则化 / 多目录扫描。</td>
+<td><a href="https://github.com/Mosuan/FileScan">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Ffuf</td>
+<td>Go语言编写的Web Fuzz工具。</td>
+<td><a href="https://github.com/ffuf/ffuf">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Dirsearch</td>
+<td>目录扫描。</td>
+<td><a href="https://github.com/maurosoria/dirsearch">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Gobuster</td>
+<td>目录扫描。</td>
+<td><a href="https://github.com/OJ/gobuster">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>JSFinder</td>
+<td>JS信息收集。</td>
+<td><a href="https://github.com/Threezh1/JSFinder">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Linkfinder</td>
+<td>JS中链接以及敏感参数扫描。</td>
+<td><a href="https://github.com/GerbenJavado/LinkFinder">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Phonebook</td>
+<td>域名邮箱收集。</td>
+<td><a href="https://phonebook.cz/">UsagePage</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>LaZagne</td>
+<td>密码凭证收集。</td>
+<td><a href="https://github.com/AlessandroZ/LaZagne">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">🚪端口扫描<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Scaninfo</td>
+<td>开源、轻量、快速、跨平台 的红队内外网打点扫描器。</td>
+<td><a href="https://github.com/redtoolskobe/scaninfo">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nmap</td>
+<td>最常用的端口扫描工具</td>
+<td><a href="https://nmap.org">官网</a></td>
+<td><a href="https://nmap.org/man/zh/index.html">官方中文文档</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Zenmap</td>
+<td>Nmap_GUI</td>
+<td><a href="https://nmap.org/zenmap/">官网</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td style="text-align: left;">御剑</td>
+<td>御剑端口扫描工具</td>
+<td><a href="https://github.com/foryujian/yjdirscan">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_5">🧶代理抓包<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Burp Suite</td>
+<td>代理抓包软件，用于Web应用程序的渗透测试和攻击<img src="../src/windows.svg" width="17" height="17" /> <img src="../src/linux.svg" width="17" height="17" /> <img src="../src/apple.svg" width="17" height="17" /></td>
+<td><a href="https://portswigger.net/burp">官网</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td style="text-align: left;">Yakit</td>
+<td>高度集成化的渗透测试平台。</td>
+<td><a href="https://github.com/yaklang">Github</a></td>
+<td><a href="https://www.yaklang.io/products/intro/">官方文档</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Mitmproxy</td>
+<td>HTTP代理</td>
+<td><a href="https://github.com/mitmproxy/mitmproxy">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td style="text-align: left;">Proxifier</td>
+<td>重定向应用程序到代理端口。</td>
+<td><a href="https://www.proxifier.com/">官网</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="webshell">🤖Webshell管理<a class="headerlink" href="#webshell" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>蚁剑(antSword)</td>
+<td>开源的跨平台Webshell管理工具。</td>
+<td><a href="https://github.com/AntSwordProject/antSword">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>冰蝎(Behinder)</td>
+<td>具有优秀的加密传输特性的Webshell管理工具。</td>
+<td><a href="https://github.com/rebeyond/Behinder">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>哥斯拉(Godzilla)</td>
+<td>支持对载荷进行AES等各种加密，支持自定义Http头，支持内存shell，提供丰富的Webshell功能。</td>
+<td><a href="https://github.com/BeichenDream/Godzilla">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Weevely3</td>
+<td>基于python编写，集webshell生成和连接于一身，采用c/s模式构建。</td>
+<td><a href="https://github.com/epinna/weevely3">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>天蝎权限管理工具</td>
+<td>基于冰蝎加密流量进行WebShell通信管理的原理，目前实现了jsp、aspx、php、asp端的常用操作功能，做出了许多优化。<strong>(已停止外部更新)</strong></td>
+<td><a href="https://github.com/shack2/skyscorpion">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>中国菜刀</td>
+<td>PHP、ASP、ASPX webshell管理工具 对一些古老站点有奇效。<strong>(已停止维护)</strong></td>
+<td><a href="https://github.com/raddyfiy/caidao-official-version">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">🎯漏洞探测&amp;利用<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Goby</td>
+<td>集资产测绘和漏洞扫描 以及多样化功能插件于一身的扫描器。</td>
+<td><a href="https://gobysec.net/">官网</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Xray</td>
+<td>一款功能强大的安全评估工具。<img src="../src/windows.svg" width="17" height="17" /> <img src="../src/linux.svg" width="17" height="17" /> <img src="../src/apple.svg" width="17" height="17" /></td>
+<td><a href="https://github.com/chaitin/xray">Github</a></td>
+<td><a href="https://docs.xray.cool/#/">官方文档</a></td>
+</tr>
+<tr>
+<td>SuperXray</td>
+<td>Xray扫描器的GUI版本。<img src="../src/windows.svg" width="17" height="17" /> <img src="../src/linux.svg" width="17" height="17" /> <img src="../src/apple.svg" width="17" height="17" /></td>
+<td><a href="https://github.com/4ra1n/super-xray">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Vscan</td>
+<td>开源、轻量、快速、跨平台 的网站漏洞扫描工具。</td>
+<td><a href="https://github.com/veo/vscan">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Afrog</td>
+<td>高性能的漏洞扫描器。</td>
+<td><a href="https://github.com/zan8in/afrog">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Scaninfo</td>
+<td>开源、轻量、快速、跨平台 的红队内外网打点扫描器。</td>
+<td><a href="https://github.com/redtoolskobe/scaninfo">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>OSV-Scanner</td>
+<td>谷歌开源漏洞扫描器</td>
+<td><a href="https://github.com/google/osv-scanner">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Wpscan</td>
+<td>Wordpress漏洞扫描器</td>
+<td><a href="https://github.com/wpscanteam/wpscan">Github</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Nuclei</td>
+<td>一款注重于可配置性、可扩展性和易用性的基于模板的快速漏洞扫描器,可通过yaml构建模板</td>
+<td><a href="https://github.com/projectdiscovery/nuclei/tree/main">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>OA-EXPTOOL</td>
+<td>OA综合利用工具，集合将近20款OA漏洞批量扫描</td>
+<td><a href="https://github.com/LittleBear4/OA-EXPTOOL">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Apt_t00ls</td>
+<td>高危漏洞利用工具</td>
+<td><a href="https://github.com/White-hua/Apt_t00ls">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Railgun</td>
+<td>具有GUI界面的渗透工具，集成了端口扫描、端口爆破、web指纹扫描、漏洞扫描、漏洞利用以及编码转换功能</td>
+<td><a href="https://github.com/lz520520/railgun">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>----<strong>Database</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SQLMap<img src="../src/application.svg" width="19" height="13" /></td>
+<td>自动化的SQL注入利用工具<img src="../src/windows.svg" width="17" height="17" /> <img src="../src/linux.svg" width="17" height="17" /> <img src="../src/apple.svg" width="17" height="17" /></td>
+<td><a href="https://github.com/sqlmapproject/sqlmap">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>SuperSQLInjectionV1</td>
+<td>C#开发的SQL注入辅助工具</td>
+<td><a href="https://github.com/shack2/SuperSQLInjectionV1">Github</a></td>
+<td></td>
+</tr>
+<tr>
+<td>----<strong>JavaWeb</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Log4j2Scan</td>
+<td>Log4j漏洞探测</td>
+<td><a href="https://github.com/whwlsfb/Log4j2Scan">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Ysoserial<img src="../src/application.svg" width="19" height="13" /></td>
+<td>Java 反序列漏洞利用工具 <img src="../src/windows.svg" width="17" height="17" /> <img src="../src/linux.svg" width="17" height="17" /> <img src="../src/apple.svg" width="17" height="17" /></td>
+<td><a href="https://github.com/frohoff/ysoserial">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Ysomap</td>
+<td>Java 反序列漏洞利用工具</td>
+<td><a href="https://github.com/wh1t3p1g/ysomap">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>SB-Scan(错乱</td>
+<td>针对Spring Boot的开源渗透框架，主要用作扫描敏感信息泄露端点，可直接测试Spring的相关高危漏洞。</td>
+<td><a href="https://github.com/AabyssZG/SpringBoot-Scan">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>SpringBootExploit</td>
+<td>SpringBoot综合利用工具</td>
+<td><a href="https://github.com/0x727/SpringBootExploit">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>ShiroAttack2</td>
+<td>Shiro框架漏洞利用工具</td>
+<td><a href="https://github.com/SummerSec/ShiroAttack2">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Fastjson</td>
+<td>Fastjson扫描器，可识别版本、依赖库、autoType状态等</td>
+<td><a href="https://github.com/a1phaboy/FastjsonScan">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>WeblogicTool</td>
+<td>WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等</td>
+<td><a href="https://github.com/KimJun1010/WeblogicTool">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Struts2-Scan</td>
+<td>Struts2漏洞利用扫描工具</td>
+<td><a href="https://github.com/HatBoy/Struts2-Scan">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>JNDIExploit</td>
+<td>JNDI多功能利用工具</td>
+<td><a href="https://github.com/qi4L/JNDIExploit">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>----<strong>PHPWeb</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Thinkphp_gui_tools</td>
+<td>ThinkPHP漏洞综合利用工具</td>
+<td><a href="https://github.com/bewhale/thinkphp_gui_tools">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>ThinkLog</td>
+<td>Tk3,5,6 日志泄漏批量下载</td>
+<td><a href="https://github.com/Lotus6/ThinkLog">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>----<strong>XSS</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>XSStrike</td>
+<td>XSS扫描器</td>
+<td><a href="https://github.com/s0md3v/XSStrike">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>PwnXSS</td>
+<td>XSS漏洞扫描利用工具</td>
+<td><a href="https://github.com/pwn0sec/PwnXSS">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Dalfox</td>
+<td>xss漏洞扫描器</td>
+<td><a href="https://github.com/hahwul/dalfox">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>----<strong>Other</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Commix</td>
+<td>All-in-One的自动化命令注入利用工具</td>
+<td><a href="https://github.com/commixproject/commix">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>LFISuite</td>
+<td>本地文件包含利用工具</td>
+<td><a href="https://github.com/D35m0nd142/LFISuite">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>XXEinjector</td>
+<td>XXE利用工具</td>
+<td><a href="https://github.com/enjoiz/XXEinjector">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Fuxploider</td>
+<td>文件上传利用工具</td>
+<td><a href="https://github.com/almandin/fuxploider">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">📢提权辅助<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li>免杀辅助</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BypassAntiVirus</td>
+<td>免杀相关文献资料。</td>
+<td><a href="https://github.com/TideSec/BypassAntiVirus">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>AV_Evasion_Tool</td>
+<td>掩日 - 适用于红队的综合免杀工具。</td>
+<td><a href="https://github.com/1y0n/AV_Evasion_Tool">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>MateuszEx</td>
+<td>bypass AV生成工具，可过火绒 360 。</td>
+<td><a href="https://github.com/sairson/MateuszEx">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>ShellCodeLoader</td>
+<td>Windows平台的shellcode免杀加载器。</td>
+<td><a href="https://github.com/knownsec/shellcodeloade">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>💻LOLBins</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>LOLBins(Living Off The Land Binaries) 
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th style="text-align: left;">Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/GTFOBins/GTFOBins.github.io">GTFOBins</a></td>
+<td style="text-align: left;">类unix渗透-二进制文件列表</td>
+<td><a href="https://gtfobins.github.io/">UsagePage</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+<td style="text-align: left;">Windows 渗透-程序</td>
+<td><a href="https://lolbas-project.github.io/">UsagePage</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/magicsword-io/LOLDrivers">LOLDrivers</a></td>
+<td style="text-align: left;">Windows 渗透-驱动</td>
+<td><a href="https://www.loldrivers.io/">UsagePage</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/infosecB/LOOBins">LOOBins</a></td>
+<td style="text-align: left;">MacOS 渗透-程序</td>
+<td><a href="https://www.loobins.io/">UsagePage</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td><a href="https://github.com/0dayCTF/reverse-shell-generator">reverse-shell-generator</a></td>
+<td style="text-align: left;">反弹shell辅助页面</td>
+<td><a href="https://www.revshells.com/">UsagePage</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>其他</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th style="text-align: left;">Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/0dayCTF/reverse-shell-generator">reverse-shell-generator</a></td>
+<td style="text-align: left;">反弹shell辅助页面</td>
+<td><a href="https://www.revshells.com/">UsagePage</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_8">⚙内网工具<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fscan</td>
+<td>内网扫描</td>
+<td><a href="https://github.com/shadow1ng/fscan">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Stowaway</td>
+<td>内网穿透</td>
+<td><a href="https://github.com/ph4ntonn/Stowaway">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>SharpHostInfo</td>
+<td>内网主机探测</td>
+<td><a href="https://github.com/shmilylty/SharpHostInfo">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>LadonGo</td>
+<td>内网渗透扫描</td>
+<td><a href="https://github.com/k8gege/LadonGo">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Neo-reGeorg</td>
+<td>代理工具</td>
+<td><a href="https://github.com/L-codes/Neo-reGeorg">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_9">↪端口转发<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Openvpn</td>
+<td>开源VPN连接工具。</td>
+<td><a href="https://github.com/OpenVPN/openvpn">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Frp</td>
+<td>专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。</td>
+<td><a href="https://github.com/fatedier/frp">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Erfrp</td>
+<td>frp二开项目,相比于原项目，更加适配攻击队。</td>
+<td><a href="https://github.com/Goqi/Erfrp">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Frps</td>
+<td>基于 <a href="https://github.com/fatedier/frp">fatedier/frp</a> 原版 frp 内网穿透服务端 frps 的一键安装卸载脚本和 docker 镜像.支持 Linux 服务器和 docker 等多种环境安装部署。</td>
+<td><a href="https://github.com/stilleshan/frps">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>NPS</td>
+<td>带有功能强大的web管理端，支持tcp、udp、socks5、http等几乎所有流量转发。</td>
+<td><a href="https://github.com/ehang-io/nps">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>GoProxy</td>
+<td>Go语言开发，多功能，支持多种协议，跨平台的代理服务。</td>
+<td><a href="https://github.com/snail007/goproxy">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_10">🔑密码攻击<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hashcat</td>
+<td>高性能，GPU/CPU 兼容的本地密码破解，支持多种不同格式</td>
+<td><a href="https://github.com/hashcat/hashcat">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>John the Ripper</td>
+<td>简单易用的离线破解</td>
+<td><a href="https://github.com/openwall/john">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Johnny</td>
+<td>John the Ripper GUI</td>
+<td><a href="https://github.com/openwall/johnny">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Hydra</td>
+<td>远程或在线密码的并行暴力破解。</td>
+<td><a href="https://github.com/vanhauser-thc/thc-hydra">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>超级弱口令检查工具</td>
+<td>Windows平台的弱口令审计工具，支持批量多线程检查。</td>
+<td><a href="https://github.com/shack2/SNETCracker">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_11">⚔ 渗透框架<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metasploit</td>
+<td>MSF，综合渗透框架</td>
+<td><a href="https://github.com/rapid7/metasploit-framework">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Yakit</td>
+<td>Yakit，国产框架，覆盖渗透全过程</td>
+<td><a href="https://github.com/yaklang/yakit">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cc">⚔ C&amp;C框架<a class="headerlink" href="#cc" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>项目名称</th>
+<th>Usage</th>
+<th>项目地址</th>
+<th>其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Metasploit</td>
+<td>MSF，支持多种C2功能</td>
+<td><a href="https://github.com/rapid7/metasploit-framework">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Cobaltstrike</td>
+<td>CS，业界最受欢迎、最成熟的的C2，但是其为付费工具</td>
+<td><a href="https://www.cobaltstrike.com/">UsagePage</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Sliver</td>
+<td>开源、跨平台的C2，支持HTTP(S)和DNS等多种协议</td>
+<td><a href="https://github.com/BishopFox/sliver">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Manjusaka</td>
+<td>具有中文Web界面、支持一键部署启动的C2，且规避能力较强</td>
+<td><a href="https://github.com/YDHCUI/manjusaka">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Havoc</td>
+<td>开源、正在开发中的C2，界面和功能类似于CS</td>
+<td><a href="https://github.com/HavocFramework/Havoc">Github</a></td>
+<td>/</td>
+</tr>
+<tr>
+<td>Empire</td>
+<td>基于powershell的C2框架 <strong>(已停止维护)</strong></td>
+<td><a href="https://github.com/EmpireProject/Empire">Github</a></td>
+<td>/</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_12">🔍漏洞情报<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简介</th>
+<th>地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OSV</td>
+<td>Google开源的在线漏洞库</td>
+<td><a href="https://osv.dev/">UsagePage</a></td>
+</tr>
+<tr>
+<td>Vulmon</td>
+<td>漏洞搜索引擎</td>
+<td><a href="https://vulmon.com/">UsagePage</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../CTF/" class="md-footer__link md-footer__link--prev" aria-label="上一页: CTF工具">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                CTF工具
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../PhishingBook/" class="md-footer__link md-footer__link--next" aria-label="下一页: 钓鱼手册">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                钓鱼手册
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 探姬
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/probiusofficial" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/probiusofficial" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://space.bilibili.com/27109929" target="_blank" rel="noopener" title="space.bilibili.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 128c0-35.3 28.7-64 64-64h256c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zm559.1-28.2c10.4 5.6 16.9 16.4 16.9 28.2v256c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64-14.2-9.5V174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.tabs", "navigation.top", "navigation.footer", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
