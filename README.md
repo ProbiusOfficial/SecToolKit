@@ -452,6 +452,7 @@ LOLBins(Living Off The Land Binaries)
 
 | 项目名称     | Usage | 项目地址 | 其他 |
 | ------------ | ----- | -------- | ---- |
+| Dark-Moon | 开源自主 AI 渗透测试框架，多智能体编排 + MCP 主机，覆盖 Web/云/AD/K8s | [Github](https://github.com/ASCIT31/Dark-Moon) | / |
 | Metasploit   | MSF，综合渗透框架      | [Github](https://github.com/rapid7/metasploit-framework)         | /     |
 | Yakit        | Yakit，国产框架，覆盖渗透全过程      | [Github](https://github.com/yaklang/yakit)         | /     |
 
